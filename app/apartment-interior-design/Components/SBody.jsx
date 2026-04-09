@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/apartment-living-room-interior-design.jpg",
-    link: "/modern-apartment-interior-design",
-    title: "Modern Apartment Interior Design",
+    title: "Downtown Dubai Apartment",
+    src: "/images/downtown-dubai-apartment.webp",
+    link: "/downtown-dubai-apartment",
   },
   {
-    src: "/images/dining-table-apartment-interior-design.jpg",
-    link: "/luxury-apartment-renovation-dubai",
-    title: "Luxury Apartment Renovation",
+    title: "Emaar Beachfront Palm View Apartment",
+    src: "/images/emaar-beachfront-palm-view-apartment.webp",
+    link: "/emaar-beachfront-palm-view-apartment",
   },
   {
-    src: "/images/bathroom-interior-design-of-apartment.jpg",
-    link: "/contemporary-apartment-fit-out-dubai",
-    title: "Contemporary Apartment Fit Out",
+    title: "Maryam Island Apartment Fit-Out",
+    src: "/images/maryam-island-apartment-fit-out.webp",
+    link: "/maryam-island-apartment-fit-out",
   },
 ];
 

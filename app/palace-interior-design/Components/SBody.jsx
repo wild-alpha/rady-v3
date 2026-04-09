@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/palace-sofa-side-decor.jpg",
-    link: "/classic-villa-interior-design",
-    title: "Classic Villa Interior Design",
+    title: "District One MBR Villa",
+    src: "/images/district-one-mbr-villa.webp",
+    link: "/district-one-mbr-villa",
   },
-  {
-    src: "/images/palace-bedroom-interior-design.jpg",
-    link: "/villa-lantana",
-    title: "Villa Lantana",
+ {
+    title: "Dubai Hills Estate Villa Interior",
+    src: "/images/dubai-hills-estate-villa-interior.webp",
+    link: "/dubai-hills-estate-villa-interior",
   },
-  {
-    src: "/images/working-table-interior-in-palace.jpg",
-    link: "/villa-khawaneej",
-    title: "Villa Khawaneej",
+ {
+    title: "Al Barari Villa",
+    src: "/images/al-barari-villa.jpg",
+    link: "/al-barari-villa",
   },
 ];
 

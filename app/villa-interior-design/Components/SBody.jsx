@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/luxury-villa-interior-design-dubai.jpg",
-    link: "/classic-villa-interior-design",
-    title: "Classic Villa Interior Design",
+    title: "Al Zahia Villa Interior",
+    src: "/images/al-zahia-villa-interior.webp",
+    link: "/al-zahia-villa-interior",
   },
   {
-    src: "/images/contemporary-villa-bedroom-interior-dubai.jpg",
-    link: "/emirates-hills-villa",
-    title: "Emirates Hills Villa",
+    title: "Sharjah Sustainable City Villa",
+    src: "/images/sharjah-sustainable-city-villa.png",
+    link: "/sharjah-sustainable-city-villa",
   },
   {
-    src: "/images/modern-villa-living-room-design-dubai.jpg",
-    link: "/district-1-mbr-city-contemporary-villa",
-    title: "District One MBR Villa",
+    title: "Tilal City Villa Interior",
+    src: "/images/tilal-city-villa-interior.webp",
+    link: "/tilal-city-villa-interior",
   },
 ];
 

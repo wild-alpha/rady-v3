@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/office-working-desk-dubai.jpg",
-    link: "/office-interior-design-dubai",
-    title: "Office Interior Design",
+    title: "Dubai Marina Office Fitout",
+    src: "/images/dubai-marina-office-fitout.webp",
+    link: "/dubai-marina-office-fitout",
+  },
+{
+    title: "Aljada Sharjah Office Interior",
+    src: "/images/aljada-sharjah-office-interior.jpg",
+    link: "/aljada-sharjah-office-interior",
   },
   {
-    src: "/images/reception-interior-office.jpg",
-    link: "/office-fit-out-dubai",
-    title: "Office Fit Out Dubai",
-  },
-  {
-    src: "/images/shajrah-american-interionational-office.jpg",
-    link: "/modern-office-design-dubai",
-    title: "Modern Office Design",
+    title: "Bluewaters Island Retail",
+    src: "/images/bluewaters-island-retail.webp",
+    link: "/bluewaters-island-retail",
   },
 ];
 

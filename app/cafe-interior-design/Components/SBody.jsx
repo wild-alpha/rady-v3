@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/cafe-sitting-furniture.jpg",
-    link: "/cafe-interior-design-dubai",
-    title: "Cafe Interior Design",
+    title: "Al Noaf Cafe Interior",
+    src: "/images/al-noaf-cafe-interior.jpg",
+    link: "/al-noaf-cafe-interior",
   },
   {
-    src: "/images/cafe-interior-design.jpg",
-    link: "/cafe-fit-out-dubai",
-    title: "Cafe Fit Out Dubai",
+    title: "Al Riqaibah Cafe",
+    src: "/images/al-riqaibah-cafe.webp",
+    link: "/al-riqaibah-cafe",
   },
   {
-    src: "/images/cafe-wall-design.jpg",
-    link: "/modern-cafe-design-dubai",
-    title: "Modern Cafe Design",
+    title: "Ras Al Khaimah Resort Restaurant",
+    src: "/images/ras-al-khaimah-resort-restaurant.webp",
+    link: "/ras-al-khaimah-resort-restaurant",
   },
 ];
 

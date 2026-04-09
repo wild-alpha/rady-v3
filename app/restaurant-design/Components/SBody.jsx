@@ -6,20 +6,20 @@ import { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
-  {
-    src: "/images/restaurant-design-dubai.png",
-    link: "/restaurant-interior-design-dubai",
-    title: "Restaurant Interior Design",
+   {
+    title: "Ras Al Khaimah Resort Restaurant",
+    src: "/images/ras-al-khaimah-resort-restaurant.webp",
+    link: "/ras-al-khaimah-resort-restaurant",
+  },
+   {
+    title: "Al Noaf Cafe Interior",
+    src: "/images/al-noaf-cafe-interior.jpg",
+    link: "/al-noaf-cafe-interior",
   },
   {
-    src: "/images/restaurant-interiors-dubai.png",
-    link: "/restaurant-fit-out-dubai",
-    title: "Restaurant Fit Out Dubai",
-  },
-  {
-    src: "/images/restaurant-interior-wall.png",
-    link: "/modern-restaurant-design-dubai",
-    title: "Modern Restaurant Design",
+    title: "Al Riqaibah Cafe",
+    src: "/images/al-riqaibah-cafe.webp",
+    link: "/al-riqaibah-cafe",
   },
 ];
 

@@ -7,19 +7,19 @@ import { FaPlay } from "react-icons/fa";
 
 const serviceCards = [
   {
-    src: "/images/penthouse-living-room.jpg",
-    link: "/luxury-penthouse-interior-design",
-    title: "Luxury Penthouse Interior Design",
+    title: "Royal Atlantis 2 Bedroom Apartment",
+    src: "/images/royal-atlantis-2-bedroom-apartment.webp",
+    link: "/royal-atlantis-2-bedroom-apartment",
   },
   {
-    src: "/images/penthouse-dining-area.jpg",
-    link: "/modern-penthouse-design-dubai",
-    title: "Modern Penthouse Design",
+    title: "Dubai South Apartment",
+    src: "/images/dubai-south-apartment.webp",
+    link: "/dubai-south-apartment",
   },
   {
-    src: "/images/penthouse-tv-lounge.jpg",
-    link: "/penthouse-fit-out-dubai",
-    title: "Penthouse Fit Out Dubai",
+    title: "Maryam Island Apartment Fit-Out",
+    src: "/images/maryam-island-apartment-fit-out.webp",
+    link: "/maryam-island-apartment-fit-out",
   },
 ];
 

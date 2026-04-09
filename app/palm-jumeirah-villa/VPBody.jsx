@@ -6,91 +6,91 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1 (a11).jpg",
     alt: "Luxury Palm Jumeirah villa living room with modern lighting",
     title: "Palm Jumeirah Villa Interior Image 1",
     description: "Spacious villa living area with elegant neutral tones and premium finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/01_Post.jpg",
     alt: "Modern villa interior in Palm Jumeirah",
     title: "Palm Jumeirah Villa Interior Image 2",
     description: "Open-plan living space with contemporary design elements"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/01_Post.png",
     alt: "Luxury villa bedroom interior",
     title: "Palm Jumeirah Villa Interior Image 3",
     description: "Elegant bedroom with soft lighting and bespoke furniture"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/a1 (8).jpg",
     alt: "Villa dining area interior design",
     title: "Palm Jumeirah Villa Interior Image 4",
     description: "Sophisticated dining area with modern finishes"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/3 (15).jpg",
     alt: "Villa kitchen interior",
     title: "Palm Jumeirah Villa Interior Image 5",
     description: "Modern kitchen with sleek cabinetry and marble countertops"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/01 (2).jpg",
     alt: "Luxury villa hallway design",
     title: "Palm Jumeirah Villa Interior Image 6",
     description: "Minimalist hallway with refined lighting details"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/1_CShading_LightMix wash.jpg",
     alt: "Villa lounge interior",
     title: "Palm Jumeirah Villa Interior Image 7",
     description: "Comfortable lounge with modern décor accents"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/4 (8).jpg",
     alt: "Villa bathroom interior design",
     title: "Palm Jumeirah Villa Interior Image 8",
     description: "Luxury bathroom with marble finishes and premium fixtures"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/5 (13).jpg",
     alt: "Modern villa interior design",
     title: "Palm Jumeirah Villa Interior Image 9",
     description: "Contemporary villa interior with clean lines and open space"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/1 (10).jpg",
     alt: "Palm Jumeirah villa living area",
     title: "Palm Jumeirah Villa Interior Image 10",
     description: "Bright living area with elegant furniture layout"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/5 (8).jpg",
     alt: "Luxury villa interior design",
     title: "Palm Jumeirah Villa Interior Image 11",
     description: "Premium finishes with modern luxury styling"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/2 (6) (1).jpg",
     alt: "Villa bedroom modern interior",
     title: "Palm Jumeirah Villa Interior Image 12",
     description: "Stylish bedroom with custom wardrobe design"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/2 (10).jpg",
     alt: "Luxury villa living space",
     title: "Palm Jumeirah Villa Interior Image 13",
     description: "Elegant seating area with contemporary décor"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/6 (2).jpg",
     alt: "Palm Jumeirah villa interior design",
     title: "Palm Jumeirah Villa Interior Image 14",
     description: "High-end villa interior with gold accents and marble flooring"
   },
   {
-    src: "/images/ATRD (29).webp",
+    src: "/images/3 (4).jpg",
     alt: "Modern villa design Dubai",
     title: "Palm Jumeirah Villa Interior Image 15",
     description: "Luxury villa design reflecting modern Dubai lifestyle"
@@ -185,7 +185,7 @@ const VPBody = () => {
 
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/6 (2).jpg"
               alt="Luxury Palm Jumeirah villa interior with marble flooring and gold accents"
               title="Palm Jumeirah Villa Interior Design Dubai"
               width={800}
@@ -201,15 +201,7 @@ const VPBody = () => {
       </div>
 
       <div className="mt-10">
-        <div className="mt-10 flex justify-center">
-          <Image
-            src="/images/sec-dvd.webp"
-            alt="Scroll down arrow"
-            width={320}
-            height={80}
-            className="h-auto w-48 sm:w-64"
-          />
-        </div>
+        
 
         <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           PALM JUMEIRAH VILLA INTERIOR GALLERY
@@ -255,7 +247,7 @@ const VPBody = () => {
             width={900}
             height={600}
             loading="lazy"
-            className="rounded-md object-contain max-h-[90vh] max-w-[90vw]"
+            className="rounded-md object-contain max-h-[600] max-w-[900]"
           />
           <button
             onClick={nextImage}

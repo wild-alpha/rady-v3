@@ -6,97 +6,60 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/3 (8)zahia.jpg",
     alt: "Luxury Al Zahia villa living room interior Sharjah",
     title: "Al Zahia Villa Interior Image 1",
     description: "Elegant living room with modern luxury finishes and soft neutral tones"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/3 (9)zahia.jpg",
     alt: "Modern Al Zahia villa lounge design Sharjah",
     title: "Al Zahia Villa Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and warm ambient lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/3-1zahia.jpg",
     alt: "Luxury Al Zahia villa bedroom interior Sharjah",
     title: "Al Zahia Villa Interior Image 3",
     description: "Master bedroom designed with calming tones and premium materials"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/4 (10)zahia.jpg",
     alt: "Al Zahia villa dining area interior design",
     title: "Al Zahia Villa Interior Image 4",
     description: "Elegant dining space with modern chandelier and refined aesthetics"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/4 (11)zahia.jpg",
     alt: "Modern kitchen Al Zahia villa interior Sharjah",
     title: "Al Zahia Villa Interior Image 5",
     description: "Contemporary kitchen with marble countertops and custom cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/6 (4)zahia.jpg",
     alt: "Luxury hallway design Al Zahia villa Sharjah",
     title: "Al Zahia Villa Interior Image 6",
     description: "Minimalist corridor design with warm lighting and smooth architectural flow"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/6 (5)zahia.jpg",
     alt: "Stylish living room Al Zahia villa interior",
     title: "Al Zahia Villa Interior Image 7",
     description: "Modern seating area with neutral palette and luxury detailing"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/6-1zahia.jpg",
     alt: "Luxury bathroom Al Zahia villa interior Sharjah",
     title: "Al Zahia Villa Interior Image 8",
     description: "Spa-inspired bathroom with marble finishes and premium fixtures"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/7zahia.jpg",
     alt: "Modern open plan Al Zahia villa interior",
     title: "Al Zahia Villa Interior Image 9",
     description: "Open-plan living space with seamless indoor-outdoor connection"
   },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Bright villa lounge Al Zahia interior design",
-    title: "Al Zahia Villa Interior Image 10",
-    description: "Airy living space with modern furniture and natural lighting"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury Al Zahia villa interior design Sharjah",
-    title: "Al Zahia Villa Interior Image 11",
-    description: "High-end finishes with bespoke craftsmanship and elegant detailing"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Bedroom design Al Zahia villa interior Sharjah",
-    title: "Al Zahia Villa Interior Image 12",
-    description: "Elegant bedroom with soft lighting and luxury wardrobe integration"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury lounge Al Zahia villa interior design",
-    title: "Al Zahia Villa Interior Image 13",
-    description: "Stylish lounge with serene modern residential aesthetics"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Grand villa living room Al Zahia Sharjah",
-    title: "Al Zahia Villa Interior Image 14",
-    description: "Spacious living room with marble flooring and premium finishes"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury Al Zahia villa interior Sharjah",
-    title: "Al Zahia Villa Interior Image 15",
-    description: "Signature villa design blending luxury and functional living"
-  },
 ];
-
 const VPBody = () => {
   const scrollRef = useRef(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
@@ -186,7 +149,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/4 (11)zahia.jpg"
               alt="Luxury Al Zahia villa interior Sharjah"
               title="Al Zahia Villa Interior Design"
               width={800}
@@ -198,16 +161,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+      
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

@@ -378,7 +378,7 @@ const SBody = () => {
             </a>
           </div>
         </div>
-{/*
+
         <h2 className="text-center text-xs sm:text-xl md:text-xl font-bold tracking-widest mb-6 uppercase text-[#d4af37]">
           OUR BEDROOM DESIGN PROJECTS IN DUBAI
         </h2>
@@ -405,7 +405,7 @@ const SBody = () => {
             </a>
           ))}
         </div>
-*/}
+
         <div className="w-screen ml-[calc(50%-50vw)] bg-[#f5ede5] py-10 text-center space-y-4">
           <h3 className="text-xs sm:text-xl font-conthrax uppercase text-[#d4af37]">
             Get In Touch With Us

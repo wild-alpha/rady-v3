@@ -6,97 +6,78 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1 (6raqaibah).jpg",
     alt: "Al Riqaibah cafe interior seating design",
     title: "Al Riqaibah Cafe Interior Image 1",
     description: "Modern cafe seating with warm lighting and cozy ambiance"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/2raqaibah(7).jpg",
     alt: "Al Riqaibah cafe counter design",
     title: "Al Riqaibah Cafe Interior Image 2",
     description: "Stylish service counter with contemporary finishes"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/4raqaibah7).jpg",
     alt: "Cafe lighting design Al Riqaibah",
     title: "Al Riqaibah Cafe Interior Image 3",
     description: "Ambient lighting creating a welcoming and relaxing cafe environment"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/6raqaibah1).jpg",
     alt: "Modern cafe interior Al Riqaibah design",
     title: "Al Riqaibah Cafe Interior Image 4",
     description: "Elegant layout combining functionality with modern aesthetics"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/raqaibah).jpg",
     alt: "Al Riqaibah cafe seating area design",
     title: "Al Riqaibah Cafe Interior Image 5",
     description: "Comfortable seating designed for social and casual dining experiences"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/raqaibah.jpg",
     alt: "Cafe wall design Al Riqaibah interior",
     title: "Al Riqaibah Cafe Interior Image 6",
     description: "Creative wall textures and decor enhancing the cafe identity"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/raqaibah(1).jpg",
     alt: "Al Riqaibah cafe dining space interior",
     title: "Al Riqaibah Cafe Interior Image 7",
     description: "Spacious dining layout with modern furniture and warm tones"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/3raqaibah(3).jpg",
     alt: "Cafe ceiling lighting Al Riqaibah design",
     title: "Al Riqaibah Cafe Interior Image 8",
     description: "Decorative ceiling elements with statement lighting features"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/5raqaibah(7).jpg",
     alt: "Open cafe layout Al Riqaibah interior design",
     title: "Al Riqaibah Cafe Interior Image 9",
     description: "Open-plan cafe layout with seamless flow and inviting atmosphere"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/8raqaibah2).jpg",
     alt: "Modern cafe design Al Riqaibah",
     title: "Al Riqaibah Cafe Interior Image 10",
     description: "Minimal and stylish cafe interior with neutral color palette"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/9raqaibah2).jpg",
     alt: "Luxury cafe interior Al Riqaibah design",
     title: "Al Riqaibah Cafe Interior Image 11",
     description: "Premium finishes with elegant detailing and modern appeal"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/11raqaibah1).jpg",
     alt: "Cafe seating arrangement Al Riqaibah",
     title: "Al Riqaibah Cafe Interior Image 12",
     description: "Thoughtfully planned seating layout for maximum comfort"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Contemporary cafe design Al Riqaibah interior",
-    title: "Al Riqaibah Cafe Interior Image 13",
-    description: "Contemporary design blending comfort with visual appeal"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Cafe interior Al Riqaibah modern luxury",
-    title: "Al Riqaibah Cafe Interior Image 14",
-    description: "Sophisticated cafe ambiance with stylish finishes"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Signature cafe interior Al Riqaibah design",
-    title: "Al Riqaibah Cafe Interior Image 15",
-    description: "Signature cafe design reflecting brand identity and customer experience"
-  },
+  }
 ];
-
 const VPBody = () => {
   const scrollRef = useRef(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
@@ -186,7 +167,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/raqaibah.jpg"
               alt="Al Riqaibah cafe interior design"
               title="Al Riqaibah Cafe Interior Design"
               width={800}
@@ -198,17 +179,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
-
+     
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
         AL RIQAIBAH CAFE INTERIOR GALLERY

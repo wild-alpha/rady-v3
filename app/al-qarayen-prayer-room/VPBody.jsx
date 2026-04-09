@@ -6,94 +6,52 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/9)prayer.jpg",
     alt: "Elegant Al Qarayen prayer room interior design Sharjah",
     title: "Al Qarayen Prayer Room Interior Image 1",
     description: "Peaceful prayer space with spiritual ambiance and soft lighting"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/4prayer(9).jpg",
     alt: "Modern mosque-style prayer room Al Qarayen Sharjah",
     title: "Al Qarayen Prayer Room Interior Image 2",
     description: "Minimalist prayer hall with clean architecture and calm aesthetics"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/5prayer8).jpg",
     alt: "Luxury prayer room interior Al Qarayen Sharjah design",
     title: "Al Qarayen Prayer Room Interior Image 3",
     description: "Serene prayer space with elegant detailing and warm tones"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/prayer1).jpg",
     alt: "Community prayer room interior Al Qarayen Sharjah",
     title: "Al Qarayen Prayer Room Interior Image 4",
     description: "Spacious prayer hall designed for community worship and comfort"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/8prayer2).jpg",
     alt: "High-end prayer room mihrab design Al Qarayen",
     title: "Al Qarayen Prayer Room Interior Image 5",
     description: "Beautifully designed mihrab with traditional Islamic patterns"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/prayer8).jpg",
     alt: "Prayer room corridor design Al Qarayen Sharjah interior",
     title: "Al Qarayen Prayer Room Interior Image 6",
     description: "Calm circulation space leading to main prayer hall"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/prayer.jpg",
     alt: "Modern Islamic prayer room carpet layout Al Qarayen",
     title: "Al Qarayen Prayer Room Interior Image 7",
     description: "Organized prayer carpet layout with perfect alignment and harmony"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/6prayer).jpg",
     alt: "Luxury ablution and prayer area Al Qarayen interior",
     title: "Al Qarayen Prayer Room Interior Image 8",
     description: "Clean and elegant ablution space with premium finishes"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open prayer hall design Al Qarayen Sharjah mosque interior",
-    title: "Al Qarayen Prayer Room Interior Image 9",
-    description: "Wide open prayer hall with peaceful spiritual environment"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern Islamic interior prayer space Al Qarayen",
-    title: "Al Qarayen Prayer Room Interior Image 10",
-    description: "Balanced interior combining tradition and modern design elements"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury prayer room ceiling design Al Qarayen Sharjah",
-    title: "Al Qarayen Prayer Room Interior Image 11",
-    description: "Decorative ceiling design with subtle Islamic geometric patterns"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Private prayer room interior Al Qarayen Sharjah design",
-    title: "Al Qarayen Prayer Room Interior Image 12",
-    description: "Peaceful private prayer corner with soft lighting ambiance"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Modern mosque interior prayer hall Al Qarayen",
-    title: "Al Qarayen Prayer Room Interior Image 13",
-    description: "Elegant prayer hall with modern Islamic architectural design"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Grand prayer room interior Al Qarayen Sharjah",
-    title: "Al Qarayen Prayer Room Interior Image 14",
-    description: "Spiritual grand hall with marble finishes and calm atmosphere"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Contemporary prayer room design Al Qarayen Sharjah",
-    title: "Al Qarayen Prayer Room Interior Image 15",
-    description: "Modern prayer space blending tradition with minimalist design"
   },
 ];
 
@@ -186,7 +144,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/9)prayer.jpg"
               alt="Luxury Al Qarayen prayer room interior Sharjah"
               title="Al Qarayen Prayer Room Interior Design"
               width={800}
@@ -198,17 +156,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
-
+      
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
         AL QARAYEN PRAYER ROOM INTERIOR GALLERY

@@ -6,95 +6,60 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/211.jpeg",
     alt: "Luxury Jumeirah Bay Island mansion living room interior",
     title: "Jumeirah Bay Island Mansion Interior Image 1",
     description: "Ultra-luxury living room with panoramic views and marble finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/5 1(9).jpg",
     alt: "Modern mansion lounge Jumeirah Bay Island",
     title: "Jumeirah Bay Island Mansion Interior Image 2",
     description: "Elegant lounge space with bespoke furniture and premium textures"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/Untitled-q4-.jpg",
     alt: "Luxury mansion bedroom Jumeirah Bay Island Dubai",
     title: "Jumeirah Bay Island Mansion Interior Image 3",
     description: "Master bedroom designed with soft luxury and high-end detailing"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/5 (8)11.jpg",
     alt: "Mansion dining area interior Jumeirah Bay Island",
     title: "Jumeirah Bay Island Mansion Interior Image 4",
     description: "Grand dining space with designer lighting and elegant finishes"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/1111.jpeg",
     alt: "Luxury mansion kitchen interior Dubai",
     title: "Jumeirah Bay Island Mansion Interior Image 5",
     description: "Modern gourmet kitchen with marble island and luxury cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/Untitled-111.jpg",
     alt: "Mansion corridor interior design Jumeirah Bay Island",
     title: "Jumeirah Bay Island Mansion Interior Image 6",
     description: "Minimalist corridor with ambient lighting and luxury materials"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/Untitled-2 (2)1.jpg",
     alt: "Luxury mansion living area Jumeirah Bay Island",
     title: "Jumeirah Bay Island Mansion Interior Image 7",
     description: "Contemporary seating area with warm neutral tones"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/Untitled-511 (1).jpg",
     alt: "Luxury spa bathroom mansion Jumeirah Bay Island",
     title: "Jumeirah Bay Island Mansion Interior Image 8",
     description: "Spa-inspired bathroom with marble, gold accents, and elegance"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/Untitled-6 (2).jpg",
     alt: "Modern mansion interior Jumeirah Bay Island Dubai",
     title: "Jumeirah Bay Island Mansion Interior Image 9",
     description: "Open-plan ultra-luxury interior with seamless design flow"
   },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Mansion lounge seating Jumeirah Bay Island",
-    title: "Jumeirah Bay Island Mansion Interior Image 10",
-    description: "Bright and spacious lounge with custom interior styling"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "High-end mansion interior design Dubai",
-    title: "Jumeirah Bay Island Mansion Interior Image 11",
-    description: "Luxury finishes with contemporary architectural detailing"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Mansion bedroom interior Jumeirah Bay Island",
-    title: "Jumeirah Bay Island Mansion Interior Image 12",
-    description: "Elegant bedroom with bespoke wardrobes and soft lighting"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury mansion lounge Dubai waterfront",
-    title: "Jumeirah Bay Island Mansion Interior Image 13",
-    description: "Stylish lounge with premium comfort and aesthetic design"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Jumeirah Bay Island ultra luxury mansion interior",
-    title: "Jumeirah Bay Island Mansion Interior Image 14",
-    description: "Grand luxury interiors with marble flooring and designer accents"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Dubai luxury mansion interior design Jumeirah Bay Island",
-    title: "Jumeirah Bay Island Mansion Interior Image 15",
-    description: "Signature ultra-luxury mansion design reflecting waterfront lifestyle"
-  },
+  
 ];
 
 const VPBody = () => {
@@ -182,7 +147,7 @@ const VPBody = () => {
 
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/jumeirah-bay-island-mansion.jpeg"
               alt="Ultra luxury Jumeirah Bay Island mansion interior Dubai"
               title="Jumeirah Bay Island Mansion Interior Design"
               width={800}
@@ -196,15 +161,7 @@ const VPBody = () => {
 
       <div className="mt-10">
 
-        <div className="mt-10 flex justify-center">
-          <Image
-            src="/images/sec-dvd.webp"
-            alt="Scroll down arrow"
-            width={320}
-            height={80}
-            className="h-auto w-48 sm:w-64"
-          />
-        </div>
+        
 
         <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           JUMEIRAH BAY ISLAND MANSION INTERIOR GALLERY

@@ -8,7 +8,7 @@ const VHeroSection = () => {
     <div className="relative w-full h-[300px] sm:h-[300px] md:h-[3500px] lg:h-[400px] xl:h-[500px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/bluewaters-island-retail.webp"
+        src="/images/retail-interiors.webp"
         alt="interior design"
         fill
         priority

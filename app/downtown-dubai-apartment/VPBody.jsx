@@ -6,95 +6,89 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1eee(10).jpg",
     alt: "Luxury Downtown Dubai apartment living room interior",
     title: "Downtown Dubai Apartment Interior Image 1",
-    description: "Elegant living room with modern luxury finishes and Burj Khalifa district-inspired views"
+    description: "Elegant living room with modern luxury finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/eeev(5).jpg",
     alt: "Modern Downtown Dubai apartment lounge design",
     title: "Downtown Dubai Apartment Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and city skyline ambiance"
   },
   {
-    src: "/images/ATRD (6).webp",
-    alt: "Luxury apartment bedroom Downtown Dubai",
+    src: "/images/1eeeLightMix (6).jpg",
+    alt: "Luxury apartment family living area",
     title: "Downtown Dubai Apartment Interior Image 3",
-    description: "Master bedroom designed with calming tones and high-rise luxury living aesthetics"
+    description: "Spacious family living area designed for comfort and high-end aesthetics"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/eeeightMix (2).jpg",
     alt: "Downtown Dubai apartment dining area interior",
     title: "Downtown Dubai Apartment Interior Image 4",
-    description: "Elegant dining space with modern chandelier and refined urban design style"
+    description: "Elegant dining space with refined urban design style"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/eee12.jpg",
     alt: "High-end kitchen Downtown Dubai apartment",
     title: "Downtown Dubai Apartment Interior Image 5",
-    description: "Contemporary kitchen with marble countertops and premium city-luxury cabinetry"
+    description: "Contemporary kitchen with premium city-luxury cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/eeeLightMix (5).jpg",
     alt: "Luxury hallway design Downtown Dubai apartment",
     title: "Downtown Dubai Apartment Interior Image 6",
-    description: "Minimalist hallway with warm lighting and sleek modern architectural flow"
+    description: "Minimalist hallway with sleek modern architectural flow"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/1eeeeeeeee.jpg",
     alt: "Downtown Dubai apartment living room decor",
     title: "Downtown Dubai Apartment Interior Image 7",
     description: "Stylish seating area with neutral tones and modern luxury detailing"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/eee(11).jpg",
     alt: "Luxury bathroom interior Downtown Dubai apartment",
     title: "Downtown Dubai Apartment Interior Image 8",
     description: "Spa-inspired bathroom with marble finishes and premium fittings"
   },
   {
-    src: "/images/ATRD (22).webp",
-    alt: "Modern apartment interior Downtown Dubai skyline view",
+    src: "/images/1eee(7).jpg",
+    alt: "Modern apartment interior skyline view",
     title: "Downtown Dubai Apartment Interior Image 9",
-    description: "Open-plan luxury living with seamless connection to city skyline views"
+    description: "Open-plan luxury living with seamless connection to city views"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/eeev(8).jpg",
     alt: "Downtown Dubai apartment seating area",
     title: "Downtown Dubai Apartment Interior Image 10",
     description: "Bright and airy living space with custom modern urban design elements"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/eeemiss.jpg",
     alt: "Luxury apartment interior Downtown Dubai",
     title: "Downtown Dubai Apartment Interior Image 11",
     description: "High-end finishes with bespoke craftsmanship and modern city elegance"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/eeeeee.jpg",
     alt: "Apartment bedroom design Downtown Dubai",
     title: "Downtown Dubai Apartment Interior Image 12",
     description: "Elegant bedroom with soft lighting and integrated wardrobe design"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/vasveee.jpg",
     alt: "Luxury Downtown Dubai apartment lounge",
     title: "Downtown Dubai Apartment Interior Image 13",
     description: "Modern lounge with skyline-inspired luxury aesthetics"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/adeeeingx (4).jpg",
     alt: "Downtown Dubai luxury apartment interior design",
     title: "Downtown Dubai Apartment Interior Image 14",
     description: "Grand living space with marble flooring and sophisticated detailing"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury apartment Downtown Dubai",
-    title: "Downtown Dubai Apartment Interior Image 15",
-    description: "Signature apartment interior blending luxury living with urban lifestyle"
-  },
+  }
 ];
 
 const VPBody = () => {
@@ -186,7 +180,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/eeev(8).JPG"
               alt="Luxury Downtown Dubai apartment interior"
               title="Downtown Dubai Apartment Interior Design"
               width={800}

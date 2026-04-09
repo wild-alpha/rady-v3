@@ -4,7 +4,7 @@ export const metadata = {
   title: "Sharjah Sustainable City Villa interior in Dubai",
   description:
     "Sharjah Sustainable City Villa interior in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/sharjah-sustainable-city-villa',
   },

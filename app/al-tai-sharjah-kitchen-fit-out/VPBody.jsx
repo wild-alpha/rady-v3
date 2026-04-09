@@ -6,94 +6,46 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/01kitchen.jpg",
     alt: "Luxury Al Tai Sharjah kitchen interior design",
     title: "Al Tai Sharjah Kitchen Interior Image 1",
     description: "Elegant modern kitchen with premium finishes and warm lighting design"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/02kitchen.jpg",
     alt: "Modern Al Tai Sharjah kitchen cabinetry design",
     title: "Al Tai Sharjah Kitchen Interior Image 2",
     description: "Sleek modular kitchen with bespoke cabinetry and clean layout"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/07 (1)kitchen.jpg",
     alt: "Luxury kitchen island Al Tai Sharjah home",
     title: "Al Tai Sharjah Kitchen Interior Image 3",
     description: "Contemporary kitchen island with marble countertops and seating space"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/0300kitchen.jpg",
     alt: "Al Tai Sharjah kitchen lighting and ceiling design",
     title: "Al Tai Sharjah Kitchen Interior Image 4",
     description: "Ambient lighting with modern ceiling detailing for luxury kitchens"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/04kitchen.jpg",
     alt: "High-end kitchen storage design Al Tai Sharjah",
     title: "Al Tai Sharjah Kitchen Interior Image 5",
     description: "Smart storage solutions with seamless built-in cabinetry design"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/05kitchen.jpg",
     alt: "Modern kitchen layout Al Tai Sharjah villa",
     title: "Al Tai Sharjah Kitchen Interior Image 6",
     description: "Efficient kitchen layout designed for functionality and luxury"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/06 (1)kitchen.jpg",
     alt: "Luxury cooking space Al Tai Sharjah kitchen",
     title: "Al Tai Sharjah Kitchen Interior Image 7",
     description: "Premium cooking area with modern appliances and elegant finishes"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Al Tai Sharjah kitchen marble countertops design",
-    title: "Al Tai Sharjah Kitchen Interior Image 8",
-    description: "Polished marble countertops with refined luxury detailing"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open plan kitchen Al Tai Sharjah interior design",
-    title: "Al Tai Sharjah Kitchen Interior Image 9",
-    description: "Open-concept kitchen seamlessly connected to dining and living space"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern kitchen design Al Tai Sharjah home",
-    title: "Al Tai Sharjah Kitchen Interior Image 10",
-    description: "Bright and minimal kitchen with soft neutral tones"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury kitchen fittings Al Tai Sharjah interior",
-    title: "Al Tai Sharjah Kitchen Interior Image 11",
-    description: "High-quality fittings and bespoke craftsmanship kitchen design"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Elegant kitchen design Al Tai Sharjah villa",
-    title: "Al Tai Sharjah Kitchen Interior Image 12",
-    description: "Stylish kitchen with ergonomic layout and modern aesthetics"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Premium kitchen interior Al Tai Sharjah Dubai style",
-    title: "Al Tai Sharjah Kitchen Interior Image 13",
-    description: "Luxury kitchen blending functionality with refined elegance"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Modern luxury kitchen Al Tai Sharjah interior design",
-    title: "Al Tai Sharjah Kitchen Interior Image 14",
-    description: "Spacious kitchen with marble flooring and designer lighting"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Signature kitchen design Al Tai Sharjah villa",
-    title: "Al Tai Sharjah Kitchen Interior Image 15",
-    description: "Signature modern kitchen reflecting premium lifestyle design"
   },
 ];
 
@@ -186,7 +138,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/05kitchen.jpg"
               alt="Luxury Al Tai Sharjah kitchen interior design"
               title="Al Tai Sharjah Kitchen Interior Design"
               width={800}
@@ -198,16 +150,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+      
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

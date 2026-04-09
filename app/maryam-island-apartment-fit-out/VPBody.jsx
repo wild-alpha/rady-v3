@@ -6,94 +6,40 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
-    alt: "Luxury Maryam Island apartment living room fit-out design",
-    title: "Maryam Island Apartment Fit-Out Image 1",
-    description: "Elegant living room with modern coastal luxury finishes"
+    src: "/images/1deeei (8).jpg",
+    alt: "Luxury Emaar Beachfront Palm View apartment living room interior",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 1",
+    description: "Elegant living room with panoramic sea and Palm views with modern luxury finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
-    alt: "Modern Maryam Island apartment lounge interior Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 2",
-    description: "Sophisticated lounge with soft tones and premium furniture layout"
+    src: "/images/2 deeei(9).jpg",
+    alt: "Modern Emaar Beachfront Palm View apartment lounge design",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 2",
+    description: "Sophisticated lounge with bespoke furniture and full-height glass waterfront views"
   },
   {
-    src: "/images/ATRD (6).webp",
-    alt: "Maryam Island apartment bedroom interior design",
-    title: "Maryam Island Apartment Fit-Out Image 3",
-    description: "Calming master bedroom with warm lighting and luxury finishes"
+    src: "/images/deeei8).jpg",
+    alt: "Luxury apartment bedroom Emaar Beachfront Dubai",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 3",
+    description: "Master bedroom designed with calming tones and uninterrupted sea view aesthetics"
   },
   {
-    src: "/images/ATRD (14).webp",
-    alt: "Maryam Island apartment dining area fit-out design",
-    title: "Maryam Island Apartment Fit-Out Image 4",
-    description: "Modern dining space with elegant lighting and refined aesthetics"
+    src: "/images/deeei).jpg",
+    alt: "Emaar Beachfront apartment dining area interior",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 4",
+    description: "Elegant dining space with modern lighting and refined contemporary styling"
   },
   {
-    src: "/images/ATRD (15).webp",
-    alt: "Luxury apartment kitchen Maryam Island interior design",
-    title: "Maryam Island Apartment Fit-Out Image 5",
-    description: "Contemporary kitchen with marble counters and custom cabinetry"
+    src: "/images/deedeeeiei.jpg",
+    alt: "High-end kitchen Emaar Beachfront apartment",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 5",
+    description: "Contemporary kitchen with marble countertops and premium built-in cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
-    alt: "Maryam Island apartment corridor interior design",
-    title: "Maryam Island Apartment Fit-Out Image 6",
-    description: "Minimal hallway design with seamless lighting integration"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Modern apartment seating area Maryam Island Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 7",
-    description: "Stylish seating area with neutral tones and luxury detailing"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury bathroom Maryam Island apartment interior",
-    title: "Maryam Island Apartment Fit-Out Image 8",
-    description: "Spa-inspired bathroom with marble textures and premium fittings"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open plan apartment interior Maryam Island Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 9",
-    description: "Open-plan living design with seamless space flow"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern apartment lounge Maryam Island fit-out",
-    title: "Maryam Island Apartment Fit-Out Image 10",
-    description: "Bright living area with contemporary furniture and natural light"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "High-end apartment fit-out Maryam Island Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 11",
-    description: "Premium finishes with bespoke craftsmanship and elegant detailing"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Apartment bedroom design Maryam Island interior Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 12",
-    description: "Elegant bedroom with luxury wardrobe integration and soft lighting"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Modern apartment lounge Maryam Island Sharjah interior",
-    title: "Maryam Island Apartment Fit-Out Image 13",
-    description: "Contemporary lounge with serene and minimal luxury design"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Luxury apartment living room Maryam Island Sharjah",
-    title: "Maryam Island Apartment Fit-Out Image 14",
-    description: "Spacious living area with marble flooring and premium finishes"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Maryam Island apartment interior design Sharjah luxury",
-    title: "Maryam Island Apartment Fit-Out Image 15",
-    description: "Signature apartment design blending comfort and modern elegance"
+    src: "/images/8 (adeeei2).jpg",
+    alt: "Luxury hallway design Emaar Beachfront apartment",
+    title: "Emaar Beachfront Palm View Apartment Interior Image 6",
+    description: "Minimalist hallway with warm lighting and seamless architectural flow"
   },
 ];
 
@@ -186,7 +132,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/2 deeei(9).jpg"
               alt="Luxury Maryam Island apartment interior Sharjah"
               title="Maryam Island Apartment Fit-Out Design"
               width={800}
@@ -198,16 +144,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+      
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

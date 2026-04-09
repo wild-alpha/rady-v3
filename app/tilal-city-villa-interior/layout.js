@@ -4,7 +4,7 @@ export const metadata = {
   title: "Tilal City Villa Interior Fit Out in Dubai",
   description:
     "Tilal City Villa Interior Fit Out in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/tilal-city-villa-interior',
   },

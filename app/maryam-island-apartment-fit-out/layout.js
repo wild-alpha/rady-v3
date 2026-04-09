@@ -4,7 +4,7 @@ export const metadata = {
   title: "Maryam Island Apartment Fit-Out in Dubai",
   description:
     "Maryam Island Apartment Fit-Out in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/maryam-island-apartment-fit-out',
   },

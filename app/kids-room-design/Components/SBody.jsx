@@ -323,7 +323,7 @@ const SBody = () => {
             </p>
           </div>
         </div>
-{/*
+
         <div className="lg:max-w-[80%] mx-auto flex flex-col lg:flex-row items-start gap-6 mb-12">
           <div className="w-full lg:w-2/3 space-y-4">
             <h2 className="text-sm sm:text-xl md:text-xl tracking-widest font-conthrax text-[#d4af37]">
@@ -402,7 +402,7 @@ const SBody = () => {
             </a>
           ))}
         </div>
-*/}
+
         <div className="w-screen ml-[calc(50%-50vw)] bg-[#f5ede5] py-10 text-center space-y-4">
           <h3 className="text-xs sm:text-xl font-conthrax uppercase text-[#d4af37]">
             Get In Touch With Us

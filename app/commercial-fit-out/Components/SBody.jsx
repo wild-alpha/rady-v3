@@ -33,7 +33,24 @@ const galleryImages = [
     link: "/classic-villa-interior-design",
     title: "CLASSIC VILLA INTERIOR DESIGN",
   },
+  {
+    src: "/images/vservice2.webp",
+    link: "/classic-villa-interior-design",
+    title: "CLASSIC VILLA INTERIOR DESIGN",
+  },
+  {
+    src: "/images/vservice2.webp",
+    link: "/classic-villa-interior-design",
+    title: "CLASSIC VILLA INTERIOR DESIGN",
+  },
+  {
+    src: "/images/vservice2.webp",
+    link: "/classic-villa-interior-design",
+    title: "CLASSIC VILLA INTERIOR DESIGN",
+  },
 ];
+
+
 
 const faqs = [
   {
@@ -74,19 +91,25 @@ const SBody = () => {
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="w-full lg:w-1/2 flex flex-col justify-start">
               <h2 className="text-sm sm:text-xl md:text-xl font-bold tracking-widest py-2 text-[#d4af37]">
-                Commercial fit out services in Dubai
+               Commercial fit out services in Dubai
               </h2>
 
               <p className="text-sm sm:text-base leading-7 mb-4">
                 Are you looking for
-                <a href="https://radyinterior.ae/" className=" ml-1">
+                <a
+                  href="https://radyinterior.ae/"
+                  className=" ml-1"
+                >
                   commercial fit out services in Dubai <span></span>
                 </a>
                 that create a functional, branded, and business-ready space. You
                 are at the right place.
                 <br />
                 With 15+ years of experience in interior design and fit out,
-                <a href="https://radyinterior.ae/" className="ml-1">
+                <a
+                  href="https://radyinterior.ae/"
+                  className="ml-1"
+                >
                   Rady Interior Design & Fit Out, <span></span>
                 </a>
                 delivers commercial fit out solutions that combine operational
@@ -97,7 +120,10 @@ const SBody = () => {
                 restaurant, salon, clinic, or another business space, our team
                 helps transform your unit into a polished and functional commercial
                 environment. Keep reading to discover how
-                <a href="https://radyinterior.ae/" className="ml-1">
+                <a
+                  href="https://radyinterior.ae/"
+                  className="ml-1"
+                >
                   Rady Interior Design & Fit Out, <span></span>
                 </a>
                 delivers commercial fit out services in Dubai tailored to your
@@ -163,26 +189,16 @@ const SBody = () => {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-          {galleryImages.map(({ src, link, title }, i) => (
-            <a
-              href={link}
-              key={i}
-              className="group block relative overflow-hidden"
-            >
-              <div className="relative aspect-square overflow-hidden">
-                <Image
-                  src={src}
-                  alt={title}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-              <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-white text-sm sm:text-base font-conthrax text-center">
-                  {title}
-                </p>
-              </div>
-            </a>
+          {designImages.map((src, index) => (
+            <div key={index} className="relative aspect-square overflow-hidden">
+              <Image
+                src={src}
+                alt={`service ${index + 1}`}
+                width={600}
+                height={600}
+                className="object-cover w-full h-full"
+              />
+            </div>
           ))}
         </div>
 
@@ -231,7 +247,10 @@ const SBody = () => {
           <div className="space-y-4 text-sm sm:text-base font-play text-left">
             <p>
               With years of experience in commercial interiors,
-              <a href="https://radyinterior.ae/" className="ml-1">
+              <a
+                href="https://radyinterior.ae/"
+                className="ml-1"
+              >
                 Rady Interior Design & Fit Out <span></span>
               </a>
               helps businesses in Dubai create spaces that are practical,
@@ -255,7 +274,10 @@ const SBody = () => {
             <p>
               From offices and retail shops to cafes, restaurants, salons, clinics,
               and other commercial spaces,
-              <a href="https://radyinterior.ae/" className="ml-1">
+              <a
+                href="https://radyinterior.ae/"
+                className="ml-1"
+              >
                 Rady Interior Design & Fit Out <span></span>
               </a>
               delivers fit out solutions that balance quality, function, and
@@ -273,7 +295,10 @@ const SBody = () => {
               <br />
               <br />
               When you choose
-              <a href="https://radyinterior.ae/" className="ml-1">
+              <a
+                href="https://radyinterior.ae/"
+                className="ml-1"
+              >
                 Rady Interior Design & Fit Out, <span></span>
               </a>
               you choose a professional team dedicated to delivering commercial fit
@@ -289,7 +314,10 @@ const SBody = () => {
               Our Dubai Commercial Fit Out Projects
             </h2>
             <p className="text-sm sm:text-base">
-              <a href="https://radyinterior.ae/" className="ml-1">
+              <a
+                href="https://radyinterior.ae/"
+                className="ml-1"
+              >
                 Rady Interior Design & Fit Out, <span></span>
               </a>
               works on a variety of commercial fit out projects in Dubai, helping
@@ -303,7 +331,10 @@ const SBody = () => {
             </p>
             <p className="text-sm sm:text-base">
               Clients trust
-              <a href="https://radyinterior.ae/" className="ml-1">
+              <a
+                href="https://radyinterior.ae/"
+                className="ml-1"
+              >
                 Rady Interior Design & Fit Out <span></span>
               </a>
               to deliver commercial environments that feel functional, polished,
@@ -333,21 +364,28 @@ const SBody = () => {
             </a>
           </div>
         </div>
-
-        <h2 className="text-center text-xs sm:text-xl md:text-xl font-bold tracking-widest mb-6 uppercase text-[#d4af37]">
-          OUR COMMERICAL FIT-OUT PROJECTS IN DUBAI
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-          {designImages.map((src, index) => (
-            <div key={index} className="relative aspect-square overflow-hidden">
+     <h2 className="text-center text-xs sm:text-xl md:text-xl font-bold tracking-widest mb-6 uppercase text-[#d4af37]">
+      OUR COMMERICAL FIT-OUT PROJECTS IN DUBAI</h2> 
+        <div className="lg:max-w-[60%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto mb-10">
+          {galleryImages.map(({ src, link, title }, i) => (
+            <a
+              href={link}
+              key={i}
+              className="group block relative overflow-hidden rounded shadow"
+            >
               <Image
                 src={src}
-                alt={`service ${index + 1}`}
-                fill
-                className="object-cover w-full h-full"
+                alt={title}
+                width={400}
+                height={400}
+                className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
               />
-            </div>
+              <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <p className="text-white text-sm sm:text-base font-conthrax text-center">
+                  {title}
+                </p>
+              </div>
+            </a>
           ))}
         </div>
 
@@ -378,6 +416,7 @@ const SBody = () => {
           </div>
         </div>
 
+        
         <div className="max-w-7xl mx-auto">
           <h2 className="text-center text-3xl font-conthrax py-12 text-[#d4af37]">
             Commercial Fit Out Dubai, Built for Business Performance

@@ -6,97 +6,37 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1cafe.jpg",
     alt: "Al Noaf cafe interior design modern seating area",
     title: "Al Noaf Cafe Interior Image 1",
     description: "Stylish café seating area with warm ambiance and contemporary finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/1cafe(7).jpg",
     alt: "Modern cafe interior Al Noaf Sharjah",
     title: "Al Noaf Cafe Interior Image 2",
     description: "Trendy café interior with sleek furniture and inviting lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/31cafe(3).jpg",
     alt: "Cafe counter design Al Noaf interior",
     title: "Al Noaf Cafe Interior Image 3",
     description: "Modern café counter with functional layout and premium materials"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/41cafe(7).jpg",
     alt: "Al Noaf cafe lighting and ceiling design",
     title: "Al Noaf Cafe Interior Image 4",
     description: "Creative ceiling design with ambient lighting for a cozy café vibe"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/51cafe(7).jpg",
     alt: "Cafe seating layout Al Noaf Sharjah",
     title: "Al Noaf Cafe Interior Image 5",
     description: "Optimized seating layout enhancing customer comfort and flow"
   },
-  {
-    src: "/images/ATRD (16).webp",
-    alt: "Al Noaf cafe interior wall decor design",
-    title: "Al Noaf Cafe Interior Image 6",
-    description: "Feature walls with artistic elements and modern café aesthetics"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Luxury cafe interior Al Noaf Sharjah",
-    title: "Al Noaf Cafe Interior Image 7",
-    description: "Upscale café environment blending comfort with elegant design"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Cafe chandelier lighting Al Noaf interior",
-    title: "Al Noaf Cafe Interior Image 8",
-    description: "Statement lighting enhancing the café’s visual appeal"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open concept cafe design Al Noaf",
-    title: "Al Noaf Cafe Interior Image 9",
-    description: "Open-plan café layout creating a spacious and welcoming feel"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern cafe seating Al Noaf Sharjah",
-    title: "Al Noaf Cafe Interior Image 10",
-    description: "Comfortable seating with modern textures and neutral tones"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "High-end cafe interior Al Noaf design",
-    title: "Al Noaf Cafe Interior Image 11",
-    description: "Premium café design with bespoke furniture and finishes"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Elegant cafe interior Al Noaf Sharjah",
-    title: "Al Noaf Cafe Interior Image 12",
-    description: "Refined café ambiance with soft lighting and stylish décor"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Al Noaf cafe lounge seating design",
-    title: "Al Noaf Cafe Interior Image 13",
-    description: "Relaxed lounge seating designed for social and casual gatherings"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Modern luxury cafe interior Al Noaf Sharjah",
-    title: "Al Noaf Cafe Interior Image 14",
-    description: "Spacious café with marble finishes and designer lighting"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Signature cafe interior design Al Noaf",
-    title: "Al Noaf Cafe Interior Image 15",
-    description: "Signature café interior reflecting modern lifestyle and elegance"
-  },
+  
 ];
-
 const VPBody = () => {
   const scrollRef = useRef(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
@@ -186,7 +126,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/51cafe(7).jpg"
               alt="Al Noaf cafe interior design Sharjah"
               title="Al Noaf Cafe Interior Design"
               width={800}
@@ -198,16 +138,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+     
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

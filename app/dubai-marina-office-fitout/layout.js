@@ -4,7 +4,7 @@ export const metadata = {
   title: "Dubai Marina Office Fit-Out in Dubai",
   description:
     "Dubai Marina Office Fit-Out in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/dubai-marina-office-fitout',
   },

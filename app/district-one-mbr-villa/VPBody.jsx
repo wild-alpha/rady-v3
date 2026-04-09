@@ -6,91 +6,91 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/01 (1)aaa.jpg",
     alt: "Luxury District One MBR villa living room interior",
     title: "District One MBR Villa Interior Image 1",
     description: "Elegant living room with crystal lighting and marble finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/01 (2)aaa.jpg",
     alt: "Modern villa lounge District One MBR Dubai",
     title: "District One MBR Villa Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and soft tones"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/01 (3)aaa.jpg",
     alt: "Luxury master bedroom District One MBR villa",
     title: "District One MBR Villa Interior Image 3",
     description: "Master bedroom with premium textures and warm lighting"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/02 (1)aaa.jpg",
     alt: "Villa dining room interior District One MBR",
     title: "District One MBR Villa Interior Image 4",
     description: "Elegant dining space with designer chandelier"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/02 (2)aaa.jpg",
     alt: "Luxury kitchen District One MBR villa",
     title: "District One MBR Villa Interior Image 5",
     description: "Modern kitchen with marble island and high-end cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/03 (1)aaa.jpg",
     alt: "Villa corridor design District One MBR Dubai",
     title: "District One MBR Villa Interior Image 6",
     description: "Minimal corridor with ambient lighting and luxury finishes"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/03 (2)aaa.jpg",
     alt: "Luxury villa seating area District One MBR",
     title: "District One MBR Villa Interior Image 7",
     description: "Contemporary seating space with elegant décor"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/03 (3)aaa.jpg",
     alt: "Luxury bathroom District One MBR villa interior",
     title: "District One MBR Villa Interior Image 8",
     description: "Spa-style bathroom with marble and gold accents"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/04 (1)aaa.jpg",
     alt: "Modern villa interior District One MBR Dubai",
     title: "District One MBR Villa Interior Image 9",
     description: "Open-plan luxury interior with seamless flow design"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/05 (1)aaa.jpg",
     alt: "Villa living space District One MBR",
     title: "District One MBR Villa Interior Image 10",
     description: "Bright living area with custom interior styling"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/05 (2)aaa.jpg",
     alt: "High-end villa design District One MBR Dubai",
     title: "District One MBR Villa Interior Image 11",
     description: "Premium finishes with modern luxury detailing"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/05 (3)aaa.jpg",
     alt: "Villa bedroom interior District One MBR",
     title: "District One MBR Villa Interior Image 12",
     description: "Elegant bedroom with bespoke wardrobes and soft lighting"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/06 (1)aaa.jpg",
     alt: "Luxury villa lounge District One MBR Dubai",
     title: "District One MBR Villa Interior Image 13",
     description: "Stylish lounge with warm modern aesthetics"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/06 (2)aaa.jpg",
     alt: "District One MBR luxury villa interior design",
     title: "District One MBR Villa Interior Image 14",
     description: "Grand villa interior with marble flooring and gold accents"
   },
   {
-    src: "/images/ATRD (29).webp",
+    src: "/images/07 (1).jpg",
     alt: "Dubai luxury villa District One MBR interior",
     title: "District One MBR Villa Interior Image 15",
     description: "Signature luxury villa design in Mohammed Bin Rashid City"
@@ -182,7 +182,7 @@ const VPBody = () => {
 
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/01 (1)aaa.jpg"
               alt="Luxury District One MBR villa interior Dubai"
               title="District One MBR Villa Interior Design"
               width={800}

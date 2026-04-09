@@ -6,96 +6,55 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/sustainable.jpg",
     alt: "Sharjah Sustainable City villa eco-friendly living room interior",
     title: "Sharjah Sustainable City Villa Interior Image 1",
     description: "Eco-luxury living room with sustainable materials and natural lighting"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/sustainable8).jpg",
     alt: "Modern sustainable villa lounge Sharjah eco interior design",
     title: "Sharjah Sustainable City Villa Interior Image 2",
     description: "Minimalist lounge designed with energy-efficient lighting and natural textures"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/sustainable10).jpg",
     alt: "Eco friendly villa bedroom Sharjah Sustainable City interior",
     title: "Sharjah Sustainable City Villa Interior Image 3",
     description: "Calming bedroom with organic materials and sustainable finishes"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/sustainable(1).jpg",
     alt: "Sustainable villa dining area Sharjah interior design",
     title: "Sharjah Sustainable City Villa Interior Image 4",
     description: "Elegant dining space with eco-conscious furniture and soft lighting"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/sustainableost.jpg",
     alt: "Modern eco kitchen Sharjah Sustainable City villa",
     title: "Sharjah Sustainable City Villa Interior Image 5",
     description: "Energy-efficient kitchen with sustainable cabinetry and natural stone surfaces"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/3sustainableLightMix (5).jpg",
     alt: "Minimal corridor Sharjah sustainable villa interior",
     title: "Sharjah Sustainable City Villa Interior Image 6",
     description: "Clean circulation space designed with eco-friendly materials"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/5sustainable.jpg",
     alt: "Eco luxury seating area Sharjah villa interior",
     title: "Sharjah Sustainable City Villa Interior Image 7",
     description: "Comfortable seating area blending sustainability with modern aesthetics"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/sustainableightMix (2) (1).jpg",
     alt: "Sustainable bathroom villa Sharjah interior design",
     title: "Sharjah Sustainable City Villa Interior Image 8",
     description: "Spa-style bathroom with water-efficient fixtures and natural stone"
   },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open plan eco villa Sharjah Sustainable City design",
-    title: "Sharjah Sustainable City Villa Interior Image 9",
-    description: "Open layout maximizing airflow and natural light for energy efficiency"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern sustainable villa living space Sharjah",
-    title: "Sharjah Sustainable City Villa Interior Image 10",
-    description: "Bright eco-friendly living room with natural ventilation design"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury eco villa Sharjah Sustainable City interior",
-    title: "Sharjah Sustainable City Villa Interior Image 11",
-    description: "Premium sustainable finishes with modern eco-luxury detailing"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Eco bedroom design Sharjah sustainable villa",
-    title: "Sharjah Sustainable City Villa Interior Image 12",
-    description: "Organic bedroom design promoting comfort and sustainability"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Eco lounge Sharjah Sustainable City villa interior",
-    title: "Sharjah Sustainable City Villa Interior Image 13",
-    description: "Modern lounge with sustainable furniture and soft natural tones"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Eco luxury villa living room Sharjah interior design",
-    title: "Sharjah Sustainable City Villa Interior Image 14",
-    description: "Spacious eco-luxury living room with natural materials and open design"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Sharjah Sustainable City villa interior design Rady Interiors",
-    title: "Sharjah Sustainable City Villa Interior Image 15",
-    description: "Signature eco-villa design by Rady Interiors blending sustainability and elegance"
-  },
 ];
+
 
 const VPBody = () => {
   const scrollRef = useRef(null);
@@ -186,7 +145,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/sustainable10).jpg"
               alt="Sharjah Sustainable City villa interior Rady Interiors"
               title="Sharjah Sustainable City Villa Interior Design"
               width={800}
@@ -198,16 +157,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+    
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

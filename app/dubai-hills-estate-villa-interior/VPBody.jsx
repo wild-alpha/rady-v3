@@ -6,91 +6,91 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/01_Post (3)bbb.jpg",
     alt: "Luxury Dubai Hills Estate villa living room interior",
     title: "Dubai Hills Estate Villa Interior Image 1",
     description: "Elegant living room with natural tones, open layout, and modern luxury finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/1_CShading_LightMix (5)(3)bbb.jpg",
     alt: "Modern Dubai Hills Estate villa lounge design",
     title: "Dubai Hills Estate Villa Interior Image 2",
     description: "Contemporary lounge with bespoke furniture and soft ambient lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/1_CShading_LightMix (6)(3)bbb.jpg",
     alt: "Luxury villa bedroom Dubai Hills Estate",
     title: "Dubai Hills Estate Villa Interior Image 3",
     description: "Master bedroom designed with warm textures and minimalist luxury style"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/1_CShading_LightMix (9)(3)bbb.jpg",
     alt: "Dubai Hills Estate villa dining area interior",
     title: "Dubai Hills Estate Villa Interior Image 4",
     description: "Sophisticated dining space with designer lighting and premium finishes"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/02 (1)(3)bbb.jpg",
     alt: "High-end kitchen Dubai Hills Estate villa",
     title: "Dubai Hills Estate Villa Interior Image 5",
     description: "Modern kitchen with marble countertops, sleek cabinetry, and luxury detailing"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/2_CShading_LightMix (2)(3)bbb.jpg",
     alt: "Luxury hallway design Dubai Hills villa",
     title: "Dubai Hills Estate Villa Interior Image 6",
     description: "Minimalist hallway with ambient lighting and elegant architectural flow"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/2_CShading_LightMix (3)(3)bbb.jpg",
     alt: "Dubai Hills Estate villa living room decor",
     title: "Dubai Hills Estate Villa Interior Image 7",
     description: "Stylish seating area with soft neutral palette and modern aesthetics"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/3_CShading_LightMix (6)(3)bbb.jpg",
     alt: "Luxury bathroom interior Dubai Hills villa",
     title: "Dubai Hills Estate Villa Interior Image 8",
     description: "Spa-inspired bathroom with marble textures and premium gold fittings"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/04_Post (3)bbb(1).jpg",
     alt: "Modern villa interior Dubai Hills Estate Dubai",
     title: "Dubai Hills Estate Villa Interior Image 9",
     description: "Open-plan luxury living with seamless indoor-outdoor connection"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/(3)bbbding_LightMix (2).jpg",
     alt: "Dubai Hills Estate villa seating area",
     title: "Dubai Hills Estate Villa Interior Image 10",
     description: "Bright living space designed with comfort and modern elegance"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/05 (1)(3)bbb.jpg",
     alt: "Luxury villa interior Dubai Hills Estate",
     title: "Dubai Hills Estate Villa Interior Image 11",
     description: "Premium interior finishes with bespoke design detailing"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/0(3)bbb6_Post.jpg",
     alt: "Villa bedroom design Dubai Hills Estate Dubai",
     title: "Dubai Hills Estate Villa Interior Image 12",
     description: "Elegant bedroom with soft lighting and custom wardrobe design"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/6_CShadi(3)bbbng_LightMix (2).jpg",
     alt: "Luxury Dubai Hills Estate villa lounge",
     title: "Dubai Hills Estate Villa Interior Image 13",
     description: "Modern lounge with luxury seating and refined styling"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/7_CShad(3)bbbing_LightMix (2).jpg",
     alt: "Dubai Hills Estate luxury villa interior design",
     title: "Dubai Hills Estate Villa Interior Image 14",
     description: "Grand living space featuring marble flooring and gold accents"
   },
   {
-    src: "/images/ATRD (29).webp",
+    src: "/images/9_CSh(3)bbbading_LightMix.jpg",
     alt: "Modern luxury villa Dubai Hills Estate Dubai",
     title: "Dubai Hills Estate Villa Interior Image 15",
     description: "Signature Dubai Hills luxury villa interior with modern elegance"
@@ -186,7 +186,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/01_Post (3)bbb.jpg"
               alt="Luxury Dubai Hills Estate villa interior design Dubai"
               title="Dubai Hills Estate Villa Interior Design"
               width={800}

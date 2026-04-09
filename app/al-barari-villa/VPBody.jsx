@@ -6,95 +6,89 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/FamilycccLiving- GF- View 4.jpg",
     alt: "Luxury Al Barari villa living room interior",
     title: "Al Barari Villa Interior Image 1",
     description: "Elegant living room with earthy tones, natural textures, and biophilic luxury design"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/Family Livvcccing- GF- View 7.jpg",
     alt: "Modern Al Barari villa lounge design",
     title: "Al Barari Villa Interior Image 2",
     description: "Organic-inspired lounge with warm lighting and natural material finishes"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/Family Lccciving- GF- View 8.jpg",
     alt: "Luxury villa bedroom Al Barari Dubai",
     title: "Al Barari Villa Interior Image 3",
     description: "Calm master bedroom designed with soft tones and nature-inspired aesthetics"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/Rahmanyaccc - Sultan Zarooni-View 2.jpg",
     alt: "Al Barari villa dining area interior",
     title: "Al Barari Villa Interior Image 4",
     description: "Elegant dining space surrounded by natural textures and refined lighting"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/Rahmanyaccc Dining- GF- View 4.jpg",
     alt: "Luxury kitchen Al Barari villa",
     title: "Al Barari Villa Interior Image 5",
     description: "Modern kitchen with wooden finishes, marble counters, and organic design flow"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/1 (8)ccc.jpg",
     alt: "Al Barari villa hallway interior design",
     title: "Al Barari Villa Interior Image 6",
     description: "Minimalist hallway with warm lighting and nature-inspired architectural elements"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/1 cocccpy.jpg",
     alt: "Luxury villa seating area Al Barari",
     title: "Al Barari Villa Interior Image 7",
     description: "Relaxed living space with natural palette and custom designer furniture"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/2 ccc(9).jpg",
     alt: "Luxury bathroom Al Barari villa interior",
     title: "Al Barari Villa Interior Image 8",
     description: "Spa-style bathroom featuring stone textures and serene luxury ambiance"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/Family Livicccng- GF- View 1.jpg",
     alt: "Modern villa interior Al Barari Dubai",
     title: "Al Barari Villa Interior Image 9",
     description: "Open-plan living space inspired by nature and luxury minimalism"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/Family cccLiving- GF- View 2.jpg",
     alt: "Al Barari villa lounge design",
     title: "Al Barari Villa Interior Image 10",
     description: "Bright lounge area with organic materials and soft earthy tones"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/Familcccy Living- GF- View 5.jpg",
     alt: "Luxury villa interior Al Barari Dubai",
     title: "Al Barari Villa Interior Image 11",
     description: "Premium craftsmanship with natural stone and wood finishes"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/Raccchmanya - Sultan Zarooni-View 1.jpg",
     alt: "Villa bedroom design Al Barari Dubai",
     title: "Al Barari Villa Interior Image 12",
     description: "Nature-inspired bedroom with warm lighting and calming aesthetics"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/Rahmanya - Sultan Zarooni-View 3ccc (1).jpg",
     alt: "Luxury Al Barari villa living room",
     title: "Al Barari Villa Interior Image 13",
     description: "Sophisticated lounge blending indoor comfort with outdoor natural beauty"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/Rahmanya Dining- GF- Vicccew 2 (1).jpg",
     alt: "Al Barari luxury villa interior design Dubai",
     title: "Al Barari Villa Interior Image 14",
     description: "Grand living space with organic textures and luxury detailing"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury Al Barari villa Dubai",
-    title: "Al Barari Villa Interior Image 15",
-    description: "Signature Al Barari villa design combining nature and modern luxury"
-  },
+  }
 ];
 
 const VPBody = () => {
@@ -186,7 +180,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/FamilycccLiving- GF- View 4.jpg"
               alt="Luxury Al Barari villa interior design Dubai"
               title="Al Barari Villa Interior Design"
               width={800}

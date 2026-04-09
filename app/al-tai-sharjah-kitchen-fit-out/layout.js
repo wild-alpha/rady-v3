@@ -4,7 +4,7 @@ export const metadata = {
   title: "Al Tai Sharjah Kitchen fit-out in Sharjah",
   description:
     "Al Tai Sharjah Kitchen fit-out in Sharjah with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/al-tai-sharjah-kitchen-fit-out',
   },

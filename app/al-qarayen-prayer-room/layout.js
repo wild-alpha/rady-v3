@@ -4,7 +4,7 @@ export const metadata = {
   title: "Al Qarayen Prayer Room Interior Design in Sharjah",
   description:
     "Al Qarayen Prayer Room Interior Design in Sharjah with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/al-qarayen-prayer-room',
   },

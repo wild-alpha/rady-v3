@@ -6,94 +6,34 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1hhh.jpg",
     alt: "Modern Aljada Sharjah office reception interior design",
     title: "Aljada Sharjah Office Interior Image 1",
     description: "Elegant reception area with modern corporate branding and clean finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/51hhh.jpg",
     alt: "Aljada office workspace design Sharjah modern interior",
     title: "Aljada Sharjah Office Interior Image 2",
     description: "Open workspace layout designed for productivity and collaboration"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/1hhhssfsf.jpg",
     alt: "Executive office room Aljada Sharjah interior design",
     title: "Aljada Sharjah Office Interior Image 3",
     description: "Premium executive office with sophisticated modern furnishing"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/31hhh.jpg",
     alt: "Aljada Sharjah meeting room interior design",
     title: "Aljada Sharjah Office Interior Image 4",
     description: "Professional meeting room with acoustic panels and modern table design"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/41hhh.jpg",
     alt: "Corporate office pantry Aljada Sharjah interior",
     title: "Aljada Sharjah Office Interior Image 5",
     description: "Stylish pantry and breakout zone for employee relaxation"
-  },
-  {
-    src: "/images/ATRD (16).webp",
-    alt: "Minimal office corridor Aljada Sharjah workspace",
-    title: "Aljada Sharjah Office Interior Image 6",
-    description: "Clean circulation corridor with modern lighting and corporate identity"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Aljada Sharjah office lounge seating area",
-    title: "Aljada Sharjah Office Interior Image 7",
-    description: "Comfortable lounge seating area for informal meetings"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury office bathroom Aljada Sharjah interior",
-    title: "Aljada Sharjah Office Interior Image 8",
-    description: "Premium restroom design with marble finishes and modern fixtures"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open plan office Aljada Sharjah interior layout",
-    title: "Aljada Sharjah Office Interior Image 9",
-    description: "Efficient open-plan workspace with natural light integration"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern coworking space Aljada Sharjah office",
-    title: "Aljada Sharjah Office Interior Image 10",
-    description: "Flexible coworking area designed for teamwork and innovation"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "High end office fitout Aljada Sharjah corporate interior",
-    title: "Aljada Sharjah Office Interior Image 11",
-    description: "Premium office finishes with bespoke detailing and branding"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Private office Aljada Sharjah interior design",
-    title: "Aljada Sharjah Office Interior Image 12",
-    description: "Private workspace designed for focus and executive comfort"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Modern office lounge Aljada Sharjah corporate design",
-    title: "Aljada Sharjah Office Interior Image 13",
-    description: "Relaxed lounge space with contemporary corporate aesthetics"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Premium office boardroom Aljada Sharjah interior",
-    title: "Aljada Sharjah Office Interior Image 14",
-    description: "Large boardroom designed for high-level corporate meetings"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Aljada Sharjah corporate office interior design",
-    title: "Aljada Sharjah Office Interior Image 15",
-    description: "Signature office design combining functionality and modern luxury"
   },
 ];
 
@@ -186,7 +126,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/1hhhssfsf.jpg"
               alt="Modern Aljada Sharjah office interior design"
               title="Aljada Sharjah Office Interior Design"
               width={800}
@@ -198,16 +138,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+     
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

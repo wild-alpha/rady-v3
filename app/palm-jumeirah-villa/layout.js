@@ -4,7 +4,7 @@ export const metadata = {
   title: "Palm Jumeirah Villa Interior Design & Fit Out",
   description:
     "Palm Jumeirah Villa Interior Design in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
     canonical: '/palm-jumeirah-villa',
   },

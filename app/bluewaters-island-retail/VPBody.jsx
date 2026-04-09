@@ -6,94 +6,28 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/retail-interiors.webp",
     alt: "Luxury Bluewaters Island retail interior storefront design",
     title: "Bluewaters Island Retail Interior Image 1",
     description: "Elegant retail storefront with modern luxury finishes and premium display layout"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/retail-interior9-2.webp",
     alt: "Modern Bluewaters Island retail boutique design",
     title: "Bluewaters Island Retail Interior Image 2",
     description: "Sophisticated boutique layout with bespoke shelving and ambient lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/clothing-store-retail-interior.webp",
     alt: "High-end retail display Bluewaters Island Dubai",
     title: "Bluewaters Island Retail Interior Image 3",
     description: "Premium product display zone designed for luxury shopping experience"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/retail-interiors-in-dubai.webp",
     alt: "Bluewaters Island retail showroom interior",
     title: "Bluewaters Island Retail Interior Image 4",
     description: "Elegant showroom space with curated display walls and modern aesthetics"
-  },
-  {
-    src: "/images/ATRD (15).webp",
-    alt: "Luxury retail counter design Bluewaters Island",
-    title: "Bluewaters Island Retail Interior Image 5",
-    description: "Contemporary retail checkout counter with marble and gold detailing"
-  },
-  {
-    src: "/images/ATRD (16).webp",
-    alt: "Minimalist retail corridor Bluewaters Island store",
-    title: "Bluewaters Island Retail Interior Image 6",
-    description: "Clean retail circulation space with warm lighting and branding focus"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Modern retail seating lounge Bluewaters Island",
-    title: "Bluewaters Island Retail Interior Image 7",
-    description: "Customer lounge area designed for premium retail experience"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury retail fitting room Bluewaters Island Dubai",
-    title: "Bluewaters Island Retail Interior Image 8",
-    description: "Exclusive fitting room with elegant finishes and soft lighting"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open plan retail interior Bluewaters Island Dubai",
-    title: "Bluewaters Island Retail Interior Image 9",
-    description: "Spacious retail floor layout with seamless customer flow design"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Bluewaters Island boutique interior design",
-    title: "Bluewaters Island Retail Interior Image 10",
-    description: "Bright retail space with modern shelving and product zoning"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury retail fit-out Bluewaters Island Dubai",
-    title: "Bluewaters Island Retail Interior Image 11",
-    description: "High-end retail finishes with custom detailing and brand identity integration"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Retail display wall Bluewaters Island boutique",
-    title: "Bluewaters Island Retail Interior Image 12",
-    description: "Curated display wall with premium lighting for product highlighting"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Modern retail interior Bluewaters Island Dubai",
-    title: "Bluewaters Island Retail Interior Image 13",
-    description: "Stylish retail ambiance with minimal luxury design language"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "High-end retail showroom Bluewaters Island",
-    title: "Bluewaters Island Retail Interior Image 14",
-    description: "Grand retail showroom with marble flooring and luxury finishes"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Premium boutique interior Bluewaters Island Dubai",
-    title: "Bluewaters Island Retail Interior Image 15",
-    description: "Signature retail interior blending branding, luxury, and customer experience"
   },
 ];
 
@@ -186,7 +120,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/retail-interiors-in-dubai.webp"
               alt="Luxury Bluewaters Island retail interior Dubai"
               title="Bluewaters Island Retail Interior Design"
               width={800}
@@ -198,16 +132,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+      
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

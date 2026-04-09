@@ -5,97 +5,75 @@ import { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
+  
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/2acdf.jpg",
     alt: "Luxury Emaar Beachfront Palm View apartment living room interior",
     title: "Emaar Beachfront Palm View Apartment Interior Image 1",
     description: "Elegant living room with panoramic sea and Palm views with modern luxury finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/2-2acdf.jpg",
     alt: "Modern Emaar Beachfront Palm View apartment lounge design",
     title: "Emaar Beachfront Palm View Apartment Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and full-height glass waterfront views"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/3 (5)acdf.jpg",
     alt: "Luxury apartment bedroom Emaar Beachfront Dubai",
     title: "Emaar Beachfront Palm View Apartment Interior Image 3",
     description: "Master bedroom designed with calming tones and uninterrupted sea view aesthetics"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/3 (7)acdf.jpg",
     alt: "Emaar Beachfront apartment dining area interior",
     title: "Emaar Beachfront Palm View Apartment Interior Image 4",
     description: "Elegant dining space with modern lighting and refined contemporary styling"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/3acdf.jpg",
     alt: "High-end kitchen Emaar Beachfront apartment",
     title: "Emaar Beachfront Palm View Apartment Interior Image 5",
     description: "Contemporary kitchen with marble countertops and premium built-in cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/3_Cacdf (6).jpg",
     alt: "Luxury hallway design Emaar Beachfront apartment",
     title: "Emaar Beachfront Palm View Apartment Interior Image 6",
     description: "Minimalist hallway with warm lighting and seamless architectural flow"
   },
   {
-    src: "/images/ATRD (17).webp",
-    alt: "Emaar Beachfront apartment living room decor",
+    src: "/images/3_acdf.jpg",
+    alt: "Luxury Emaar Beachfront apartment interior detail",
     title: "Emaar Beachfront Palm View Apartment Interior Image 7",
-    description: "Stylish seating area with neutral tones and luxury interior detailing"
+    description: "Detailed interior finish showcasing high-end craftsmanship"
   },
   {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury bathroom interior Emaar Beachfront apartment",
+    src: "/images/acdf(8).jpg",
+    alt: "Modern Dubai apartment interior view",
     title: "Emaar Beachfront Palm View Apartment Interior Image 8",
-    description: "Spa-inspired bathroom with marble finishes and premium fittings"
+    description: "Modern design elements integrated with urban luxury"
   },
   {
-    src: "/images/ATRD (22).webp",
-    alt: "Modern Emaar Beachfront Palm View apartment interior",
+    src: "/images/4acdf.jpg",
+    alt: "Premium apartment living space design",
     title: "Emaar Beachfront Palm View Apartment Interior Image 9",
-    description: "Open-plan luxury living with seamless indoor-outdoor sea connection"
+    description: "Open-plan living space designed for maximum natural light"
   },
   {
-    src: "/images/ATRD (23).webp",
-    alt: "Emaar Beachfront apartment seating area",
+    src: "/images/acdf.jpg",
+    alt: "Luxury apartment architectural detail",
     title: "Emaar Beachfront Palm View Apartment Interior Image 10",
-    description: "Bright and airy living space with custom modern design elements"
+    description: "Sleek architectural lines and modern interior finishes"
   },
   {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury apartment interior Emaar Beachfront Dubai",
+    src: "/images/5acdf.jpg",
+    alt: "Contemporary Emaar Beachfront apartment lounge",
     title: "Emaar Beachfront Palm View Apartment Interior Image 11",
-    description: "High-end finishes with bespoke craftsmanship and modern elegance"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Apartment bedroom design Emaar Beachfront Dubai",
-    title: "Emaar Beachfront Palm View Apartment Interior Image 12",
-    description: "Elegant bedroom with soft lighting and luxury storage integration"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury Emaar Beachfront apartment lounge",
-    title: "Emaar Beachfront Palm View Apartment Interior Image 13",
-    description: "Modern lounge with Palm-view inspired serene aesthetics"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Emaar Beachfront luxury apartment interior design",
-    title: "Emaar Beachfront Palm View Apartment Interior Image 14",
-    description: "Grand living space with marble flooring and sophisticated detailing"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury apartment Emaar Beachfront Dubai",
-    title: "Emaar Beachfront Palm View Apartment Interior Image 15",
-    description: "Signature apartment interior blending luxury living with waterfront views"
-  },
+    description: "Stylish lounge area with high-end furniture and panoramic views"
+  }
 ];
+
 
 const VPBody = () => {
   const scrollRef = useRef(null);
@@ -186,7 +164,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/3acdf.jpg"
               alt="Luxury Emaar Beachfront Palm View apartment interior Dubai"
               title="Emaar Beachfront Palm View Apartment Interior Design"
               width={800}
@@ -198,16 +176,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+     
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

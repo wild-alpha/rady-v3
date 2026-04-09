@@ -6,97 +6,36 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1majlis.png",
     alt: "Luxury Al Suyoh Majlis interior seating design",
     title: "Al Suyoh Majlis Interior Image 1",
     description: "Elegant majlis seating area with traditional luxury finishes and modern detailing"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/2majlis.png",
     alt: "Modern Al Suyoh Majlis interior lounge design",
     title: "Al Suyoh Majlis Interior Image 2",
     description: "Sophisticated majlis lounge with bespoke seating and warm ambient lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/3 (2)majlis.png",
     alt: "Luxury Al Suyoh Majlis ceiling design Dubai",
     title: "Al Suyoh Majlis Interior Image 3",
     description: "Majestic ceiling design with Arabic-inspired patterns and luxury finishes"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/5 (1)majlis.png",
     alt: "Al Suyoh Majlis interior reception area",
     title: "Al Suyoh Majlis Interior Image 4",
     description: "Welcoming majlis reception space with elegant cultural aesthetics"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/4majlis.png",
     alt: "Traditional modern majlis seating Al Suyoh",
     title: "Al Suyoh Majlis Interior Image 5",
     description: "Blend of traditional majlis seating with modern luxury craftsmanship"
   },
-  {
-    src: "/images/ATRD (16).webp",
-    alt: "Al Suyoh Majlis interior wall decor design",
-    title: "Al Suyoh Majlis Interior Image 6",
-    description: "Detailed wall paneling with Arabic geometric patterns and soft lighting"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Luxury majlis seating arrangement Al Suyoh Dubai",
-    title: "Al Suyoh Majlis Interior Image 7",
-    description: "Spacious seating layout designed for comfort and hospitality"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Al Suyoh Majlis chandelier lighting design",
-    title: "Al Suyoh Majlis Interior Image 8",
-    description: "Elegant chandelier lighting enhancing the majlis luxury atmosphere"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Modern Arabic majlis interior Al Suyoh Dubai",
-    title: "Al Suyoh Majlis Interior Image 9",
-    description: "Contemporary majlis with seamless blend of tradition and modern design"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Luxury Al Suyoh Majlis seating room",
-    title: "Al Suyoh Majlis Interior Image 10",
-    description: "Bright majlis space with custom furniture and premium finishes"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "High-end majlis interior Al Suyoh Dubai",
-    title: "Al Suyoh Majlis Interior Image 11",
-    description: "Refined majlis interior showcasing craftsmanship and luxury detailing"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Elegant Arabic majlis design Al Suyoh",
-    title: "Al Suyoh Majlis Interior Image 12",
-    description: "Soft-toned majlis with elegant textures and warm lighting atmosphere"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury family majlis Al Suyoh interior design",
-    title: "Al Suyoh Majlis Interior Image 13",
-    description: "Family majlis designed for comfort, tradition, and luxury living"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Premium majlis hall Al Suyoh Dubai",
-    title: "Al Suyoh Majlis Interior Image 14",
-    description: "Grand majlis hall with marble flooring and elegant Arabic aesthetics"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury majlis Al Suyoh interior Dubai",
-    title: "Al Suyoh Majlis Interior Image 15",
-    description: "Signature majlis design blending heritage with modern luxury style"
-  },
 ];
-
 const VPBody = () => {
   const scrollRef = useRef(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
@@ -186,7 +125,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/2majlis.png"
               alt="Luxury Al Suyoh Majlis interior design Dubai"
               title="Al Suyoh Majlis Interior Design"
               width={800}
@@ -198,16 +137,7 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+    
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

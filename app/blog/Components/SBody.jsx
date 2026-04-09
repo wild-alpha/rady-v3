@@ -4,59 +4,62 @@ import Link from "next/link";
 const posts = [
   {
     title: "Modern Office Furniture Solutions in UAE",
-    image: "/images/office-fitout.jpg",
-  
+    image: "/images/blog/post-1.jpg",
+    date: "21",
     href: "/blog/modern-office-furniture",
   },
   {
     title: "The Ultimate Guide to Wall Paneling in 2026",
-    image: "/images/apartment-living room.jpg",
-    
+    image: "/images/blog/post-2.jpg",
+    date: "21",
     href: "/blog/wall-paneling-guide",
   },
   {
     title: "Weather-Proof Outdoor Furniture in Dubai",
-    image: "/images/villa-design.jpg",
-    
+    image: "/images/blog/post-3.jpg",
+    date: "21",
     href: "/blog/outdoor-furniture-dubai",
   },
   {
     title: "Elegant Villa Landscape Design",
-    image: "/images/commercial-services.jpg",
-    
+    image: "/images/blog/post-4.jpg",
+    date: "21",
     href: "/blog/villa-landscape-design",
   },
   {
     title: "Modern Office Reception Design Solutions",
-    image: "/images/02_Reception_02[1].jpg",
-    
+    image: "/images/blog/post-5.jpg",
+    date: "20",
     href: "/blog/reception-design",
   },
   {
     title: "Luxury Bedroom Interior Trends 2026",
-    image: "/images/bedroom-services.jpg",
-
+    image: "/images/blog/post-6.jpg",
+    date: "18",
     href: "/blog/bedroom-trends",
   },
   {
     title: "Commercial Renovation Services in Dubai",
-    image: "/images/retail-renovation.jpg",
-    /*date: "18",*/
+    image: "/images/blog/post-7.jpg",
+    date: "18",
     href: "/blog/commercial-renovation",
   },
   {
     title: "Transform Your Space with Epoxy Flooring",
-    image: "/images/fujairah-home-office-interior.webp",
+    image: "/images/blog/post-8.jpg",
+    date: "18",
     href: "/blog/epoxy-flooring",
   },
   {
     title: "Luxury Swimming Pool Design in Dubai",
-    image: "/images/palm-jumeirah-villa.webp",
+    image: "/images/blog/post-9.jpg",
+    date: "18",
     href: "/blog/swimming-pool-design",
   },
   {
     title: "Interior Project Management in Dubai",
-    image: "/images/living room-renovation.jpg",
+    image: "/images/blog/post-10.jpg",
+    date: "18",
     href: "/blog/project-management",
   },
 ];

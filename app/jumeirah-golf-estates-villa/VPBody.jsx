@@ -6,95 +6,89 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/FRONT CdddAM LIVING01.jpg",
     alt: "Luxury Jumeirah Golf Estates villa living room interior",
     title: "Jumeirah Golf Estates Villa Interior Image 1",
     description: "Elegant living room overlooking golf course views with modern luxury finishes"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/BACK CAdddM LIVING1.jpg",
     alt: "Modern Jumeirah Golf Estates villa lounge design",
     title: "Jumeirah Golf Estates Villa Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and panoramic natural lighting"
   },
   {
-    src: "/images/ATRD (6).webp",
-    alt: "Luxury villa bedroom Jumeirah Golf Estates Dubai",
+    src: "/images/FRONTddd CAM LIVING02.jpg",
+    alt: "Luxury villa interior Jumeirah Golf Estates Dubai",
     title: "Jumeirah Golf Estates Villa Interior Image 3",
-    description: "Master bedroom designed with calming tones and golf-view inspired luxury"
+    description: "High-end finishes with bespoke craftsmanship and modern elegance"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/KHALİdddFA AL ALİ - DİNİNG AREA- SİDE VİEW -28.02.jpg",
     alt: "Jumeirah Golf Estates villa dining area interior",
     title: "Jumeirah Golf Estates Villa Interior Image 4",
     description: "Elegant dining space with chandelier lighting and refined modern aesthetics"
   },
   {
-    src: "/images/ATRD (15).webp",
-    alt: "High-end kitchen Jumeirah Golf Estates villa",
+    src: "/images/khalifa dddal ali- master bedroom- side view -25.01.jpg",
+    alt: "Luxury villa bedroom Jumeirah Golf Estates Dubai",
     title: "Jumeirah Golf Estates Villa Interior Image 5",
+    description: "Master bedroom designed with calming tones and golf-view inspired luxury"
+  },
+  {
+    src: "/images/KHALİFdddA AL ALİ-BOYS BEDROOM-RİGHT SİDE VİEW- 18.02.jpg",
+    alt: "Luxury kids bedroom Jumeirah Golf Estates villa",
+    title: "Jumeirah Golf Estates Villa Interior Image 6",
+    description: "Modern boys bedroom with custom cabinetry and integrated study area"
+  },
+  {
+    src: "/images/Khalifa dddAl Ali-Girls bedroom-Left side view-12JAN.jpg",
+    alt: "Modern girls bedroom design Dubai",
+    title: "Jumeirah Golf Estates Villa Interior Image 7",
+    description: "Elegant girls bedroom featuring soft palettes and bespoke furniture"
+  },
+  {
+    src: "/images/khalofddda al ali - master bathroom- left side view-31.01.jpg",
+    alt: "Luxury bathroom interior Jumeirah Golf Estates villa",
+    title: "Jumeirah Golf Estates Villa Interior Image 8",
+    description: "Spa-inspired bathroom with marble finishes and premium fittings"
+  },
+  {
+    src: "/images/Mr Khalifa_s Kidddtchen front camera2.jpg",
+    alt: "High-end kitchen Jumeirah Golf Estates villa",
+    title: "Jumeirah Golf Estates Villa Interior Image 9",
     description: "Contemporary kitchen with marble countertops and premium cabinetry design"
   },
   {
-    src: "/images/ATRD (16).webp",
-    alt: "Luxury hallway design Jumeirah Golf Estates villa",
-    title: "Jumeirah Golf Estates Villa Interior Image 6",
-    description: "Minimalist hallway with warm lighting and elegant architectural flow"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Jumeirah Golf Estates villa living room decor",
-    title: "Jumeirah Golf Estates Villa Interior Image 7",
-    description: "Stylish seating area with neutral tones and luxury interior detailing"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury bathroom interior Jumeirah Golf Estates villa",
-    title: "Jumeirah Golf Estates Villa Interior Image 8",
-    description: "Spa-inspired bathroom with marble finishes and premium gold fittings"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Modern villa interior Jumeirah Golf Estates Dubai",
-    title: "Jumeirah Golf Estates Villa Interior Image 9",
-    description: "Open-plan luxury living with seamless indoor-outdoor connection"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Jumeirah Golf Estates villa seating area",
+    src: "/images/khalifa adddl ali - guest bedroom-right side -23.03.jpg",
+    alt: "Modern guest bedroom Jumeirah Golf Estates Dubai",
     title: "Jumeirah Golf Estates Villa Interior Image 10",
-    description: "Bright and airy living space with custom modern design elements"
+    description: "Sophisticated guest suite with minimalist luxury design"
   },
   {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury villa interior Jumeirah Golf Estates Dubai",
+    src: "/images/khalifaddd al ali - master bathroom- right side view-31.01.jpg",
+    alt: "Luxury master bathroom Jumeirah Golf Estates",
     title: "Jumeirah Golf Estates Villa Interior Image 11",
-    description: "High-end finishes with bespoke craftsmanship and modern elegance"
+    description: "Premium master ensuite with high-end stone textures"
   },
   {
-    src: "/images/ATRD (26).webp",
-    alt: "Villa bedroom design Jumeirah Golf Estates Dubai",
+    src: "/images/KHALIFAddd AL ALI- DINING RESTROOM-LEFT SIDE -17.04 (1).jpg",
+    alt: "Luxury dining restroom design",
     title: "Jumeirah Golf Estates Villa Interior Image 12",
-    description: "Elegant bedroom with soft lighting and luxury wardrobe integration"
+    description: "Refined powder room with elegant architectural flow"
   },
   {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury Jumeirah Golf Estates villa lounge",
+    src: "/images/khalifa al ali -master bedroom-dressing room-front side view-25.01.jpg",
+    alt: "Luxury dressing room interior",
     title: "Jumeirah Golf Estates Villa Interior Image 13",
-    description: "Modern lounge with golf-course inspired serene aesthetics"
+    description: "High-end dressing room with bespoke cabinetry and elegant lighting"
   },
   {
-    src: "/images/ATRD (28).webp",
-    alt: "Jumeirah Golf Estates luxury villa interior design",
+    src: "/images/khalifa al ali- master bedroom-right side view 1-25.01.jpg",
+    alt: "Master bedroom right side view",
     title: "Jumeirah Golf Estates Villa Interior Image 14",
-    description: "Grand living space with marble flooring and sophisticated detailing"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury villa Jumeirah Golf Estates Dubai",
-    title: "Jumeirah Golf Estates Villa Interior Image 15",
-    description: "Signature villa interior blending luxury living with golf estate views"
-  },
+    description: "Alternative view of the master suite highlighting spacious layout"
+  }
 ];
 
 const VPBody = () => {
@@ -186,7 +180,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/FRONT CdddAM LIVING01.jpg"
               alt="Luxury Jumeirah Golf Estates villa interior Dubai"
               title="Jumeirah Golf Estates Villa Interior Design"
               width={800}
@@ -198,17 +192,8 @@ const VPBody = () => {
         </div>
       </div>
 
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
-
+      
+     
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
         JUMEIRAH GOLF ESTATES VILLA INTERIOR GALLERY

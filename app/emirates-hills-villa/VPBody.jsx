@@ -6,91 +6,91 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/03 (4).jpg",
     alt: "Luxury Emirates Hills villa living room interior",
     title: "Emirates Hills Villa Interior Image 1",
     description: "Grand living room with premium marble flooring and elegant lighting"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/08 (1).jpg",
     alt: "Modern Emirates Hills villa lounge design",
     title: "Emirates Hills Villa Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and warm tones"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/03 (1).jpg",
     alt: "Luxury villa bedroom in Emirates Hills Dubai",
     title: "Emirates Hills Villa Interior Image 3",
     description: "Master bedroom designed with soft luxury and custom detailing"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/03 (2).jpg",
     alt: "Emirates Hills villa dining area interior",
     title: "Emirates Hills Villa Interior Image 4",
     description: "Elegant dining space with modern chandelier and refined finishes"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/02 (2).jpg",
     alt: "High-end villa kitchen Emirates Hills",
     title: "Emirates Hills Villa Interior Image 5",
     description: "Contemporary kitchen with marble countertops and premium cabinetry"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/09.jpg",
     alt: "Luxury hallway design Emirates Hills villa",
     title: "Emirates Hills Villa Interior Image 6",
     description: "Minimalist hallway with ambient lighting and luxury textures"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/Cam 02.jpg",
     alt: "Emirates Hills villa living room decor",
     title: "Emirates Hills Villa Interior Image 7",
     description: "Modern seating area with elegant neutral palette"
   },
   {
-    src: "/images/ATRD (18).webp",
+    src: "/images/cam01.jpg",
     alt: "Luxury bathroom interior Emirates Hills villa",
     title: "Emirates Hills Villa Interior Image 8",
     description: "Spa-style bathroom with marble and gold fixtures"
   },
   {
-    src: "/images/ATRD (22).webp",
+    src: "/images/01 (12).jpg",
     alt: "Modern villa interior Emirates Hills Dubai",
     title: "Emirates Hills Villa Interior Image 9",
     description: "Open-plan luxury living with contemporary architecture"
   },
   {
-    src: "/images/ATRD (23).webp",
+    src: "/images/02 (1).jpg",
     alt: "Emirates Hills villa seating area",
     title: "Emirates Hills Villa Interior Image 10",
     description: "Bright and airy living space with custom design elements"
   },
   {
-    src: "/images/ATRD (25).webp",
+    src: "/images/02 (3).jpg",
     alt: "Luxury villa interior design Emirates Hills",
     title: "Emirates Hills Villa Interior Image 11",
     description: "High-end finishes with modern luxury detailing"
   },
   {
-    src: "/images/ATRD (26).webp",
+    src: "/images/01 (3).jpg",
     alt: "Villa bedroom design Emirates Hills Dubai",
     title: "Emirates Hills Villa Interior Image 12",
     description: "Elegant bedroom with bespoke wardrobe and soft lighting"
   },
   {
-    src: "/images/ATRD (27).webp",
+    src: "/images/ATRD (27).jpg",
     alt: "Luxury Emirates Hills villa lounge",
     title: "Emirates Hills Villa Interior Image 13",
     description: "Stylish lounge with premium comfort and aesthetics"
   },
   {
-    src: "/images/ATRD (28).webp",
+    src: "/images/ATRD (28).jpg",
     alt: "Emirates Hills luxury villa interior design",
     title: "Emirates Hills Villa Interior Image 14",
     description: "Grand interior with marble flooring and gold accents"
   },
   {
-    src: "/images/ATRD (29).webp",
+    src: "/images/ATRD (29).jpg",
     alt: "Modern luxury villa Emirates Hills Dubai",
     title: "Emirates Hills Villa Interior Image 15",
     description: "Signature Dubai luxury villa interior styling"
@@ -182,7 +182,7 @@ const VPBody = () => {
 
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/03 (4).jpg"
               alt="Luxury Emirates Hills villa interior design Dubai"
               title="Emirates Hills Villa Interior Design"
               width={800}
@@ -196,15 +196,7 @@ const VPBody = () => {
 
       <div className="mt-10">
 
-        <div className="mt-10 flex justify-center">
-          <Image
-            src="/images/sec-dvd.webp"
-            alt="Scroll down arrow"
-            width={320}
-            height={80}
-            className="h-auto w-48 sm:w-64"
-          />
-        </div>
+      
 
         <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           EMIRATES HILLS VILLA INTERIOR GALLERY

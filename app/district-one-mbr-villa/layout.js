@@ -1,12 +1,12 @@
 import '../globals.css';
 
 export const metadata = {
-  title: " Jumeirah Bay Island Mansion Interior Design & Fit Out",
+  title: "  District One MBR Villa Interior Interior Design & Fit Out",
   description:
-    " Jumeirah Bay Island Mansion Interior Design in Dubai with bespoke fit-out & modern styles. Book your design today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+    "  District One MBR Villa  Interior Design in Dubai with bespoke fit-out & modern styles. Book your design today!",
+  metadataBase: new URL('https://radyinterior.ae/'),
   alternates: {
-    canonical: '/jumeirah-bay-island-mansion',
+    canonical: '/district-one-mbr-villa',
   },
 };
 

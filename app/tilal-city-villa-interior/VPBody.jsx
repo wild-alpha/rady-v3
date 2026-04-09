@@ -6,97 +6,36 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/Tilal City Villa.jpg",
     alt: "Luxury Tilal City villa living room interior",
     title: "Tilal City Villa Interior Image 1",
     description: "Elegant living room with modern luxury finishes and warm ambient lighting"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/Tilal City Villa (2).jpg",
     alt: "Modern Tilal City villa lounge design",
     title: "Tilal City Villa Interior Image 2",
     description: "Sophisticated lounge with bespoke furniture and natural light integration"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/Tilal City Villa22.jpg",
     alt: "Luxury villa bedroom Tilal City Sharjah",
     title: "Tilal City Villa Interior Image 3",
     description: "Master bedroom designed with calming tones and premium luxury aesthetics"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/08 (2)22.jpg",
     alt: "Tilal City villa dining area interior",
     title: "Tilal City Villa Interior Image 4",
     description: "Elegant dining space with chandelier lighting and refined modern design"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/Tilal City Villa123.jpg",
     alt: "High-end kitchen Tilal City villa",
     title: "Tilal City Villa Interior Image 5",
     description: "Contemporary kitchen with marble countertops and premium cabinetry"
   },
-  {
-    src: "/images/ATRD (16).webp",
-    alt: "Luxury hallway design Tilal City villa",
-    title: "Tilal City Villa Interior Image 6",
-    description: "Minimalist hallway with warm lighting and seamless architectural flow"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Tilal City villa living room decor",
-    title: "Tilal City Villa Interior Image 7",
-    description: "Stylish seating area with neutral tones and luxury detailing"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury bathroom interior Tilal City villa",
-    title: "Tilal City Villa Interior Image 8",
-    description: "Spa-inspired bathroom with marble finishes and premium fittings"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Modern villa interior Tilal City Sharjah",
-    title: "Tilal City Villa Interior Image 9",
-    description: "Open-plan luxury living with seamless indoor-outdoor connection"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Tilal City villa seating area",
-    title: "Tilal City Villa Interior Image 10",
-    description: "Bright and airy living space with custom modern design elements"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury villa interior Tilal City Sharjah",
-    title: "Tilal City Villa Interior Image 11",
-    description: "High-end finishes with bespoke craftsmanship and modern elegance"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Villa bedroom design Tilal City Sharjah",
-    title: "Tilal City Villa Interior Image 12",
-    description: "Elegant bedroom with soft lighting and luxury wardrobe integration"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Luxury Tilal City villa lounge",
-    title: "Tilal City Villa Interior Image 13",
-    description: "Modern lounge with serene and sophisticated aesthetics"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Tilal City luxury villa interior design",
-    title: "Tilal City Villa Interior Image 14",
-    description: "Grand living space with marble flooring and premium detailing"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Modern luxury villa Tilal City Sharjah",
-    title: "Tilal City Villa Interior Image 15",
-    description: "Signature villa interior blending luxury living with modern comfort"
-  },
 ];
-
 const VPBody = () => {
   const scrollRef = useRef(null);
   const { scrollYProgress } = useScroll({ container: scrollRef });
@@ -186,7 +125,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/Tilal City Villa22.jpg"
               alt="Luxury Tilal City villa interior Sharjah"
               title="Tilal City Villa Interior Fit Out"
               width={800}

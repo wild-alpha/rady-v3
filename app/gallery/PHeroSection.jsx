@@ -9,7 +9,7 @@ const PHeroSection = () => {
     <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/5.webp"
+        src="/images/tilal-city-villa-interior.webp"
         alt="Interior Design & Fit Out Projects"
         fill
         priority

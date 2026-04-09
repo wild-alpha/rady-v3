@@ -6,96 +6,49 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/1ffff(8).jpg",
     alt: "Elegant villa living room with ambient lighting",
     title: "Villa Interior Gallery Image 1",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/ffff(9).jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 2",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/3ffff.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 3",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/ffff(8).jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 4",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/ffff.jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 5",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/ffff).jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 6",
     description: "Spacious living area with beige tones and gold accents"
   },
   {
-    src: "/images/ATRD (17).webp",
+    src: "/images/ffff(2).jpg",
     alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
-    description: "Spacious living area with beige tones and gold accents"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Elegant villa living room with ambient lighting",
-    title: "Villa Interior Gallery Image 1",
+    title: "Villa Interior Gallery Image 7",
     description: "Spacious living area with beige tones and gold accents"
   },
 ];
+
 
 const VPBody = () => {
   const scrollRef = useRef(null);
@@ -203,7 +156,7 @@ const VPBody = () => {
           {/* Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/ffff(2).jpg"
               alt="Luxury villa interior with white marble flooring and gold accents"
               title="Modern Villa Interior Design in Dubai"
               width={800}
@@ -220,16 +173,7 @@ const VPBody = () => {
 
       {/* Gallery Section */}
       <div className="mt-10">
-        {/* Arrow image */}
-        <div className="mt-10 flex justify-center">
-          <Image
-            src="/images/sec-dvd.webp"
-            alt="Scroll down arrow"
-            width={320}
-            height={80}
-            className="h-auto w-48 sm:w-64"
-          />
-        </div>
+        
 
         {/* Section Heading */}
         <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

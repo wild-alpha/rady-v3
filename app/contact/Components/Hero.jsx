@@ -17,7 +17,7 @@ export default function VHeroSection() {
 
       <div className="relative z-10 mx-auto flex min-h-[34vh] max-w-7xl items-center px-4 sm:min-h-[40vh] sm:px-6 md:min-h-[46vh] lg:px-8">
         <div className="max-w-4xl">
-          <h1 className="mt-50 sm:mt-20 text-4xl font-semibold leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
+          <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             Contact Us
           </h1>
         </div>

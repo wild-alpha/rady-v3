@@ -6,95 +6,42 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const galleryImages = [
   {
-    src: "/images/ATRD (2).webp",
+    src: "/images/FB_IMG_1683605714136.jpg",
     alt: "Luxury Dubai South apartment living room interior design",
     title: "Dubai South Apartment Interior Image 1",
     description: "Elegant living room with modern luxury finishes and soft ambient lighting"
   },
   {
-    src: "/images/ATRD (4).webp",
+    src: "/images/FB_IMG_1683605717136.jpg",
     alt: "Modern Dubai South apartment lounge design",
     title: "Dubai South Apartment Interior Image 2",
     description: "Contemporary lounge with bespoke furniture and clean minimal aesthetics"
   },
   {
-    src: "/images/ATRD (6).webp",
+    src: "/images/FB_IMG_1683667093196.jpg",
     alt: "Luxury Dubai South apartment bedroom interior",
     title: "Dubai South Apartment Interior Image 3",
     description: "Master bedroom with calming tones and premium interior detailing"
   },
   {
-    src: "/images/ATRD (14).webp",
+    src: "/images/FB_IMG_1683667095381.jpg",
     alt: "Dubai South apartment dining area interior design",
     title: "Dubai South Apartment Interior Image 4",
     description: "Elegant dining space with designer lighting and modern finishes"
   },
   {
-    src: "/images/ATRD (15).webp",
+    src: "/images/FB_IMG_1683667201112.jpg",
     alt: "Modern kitchen Dubai South apartment interior",
     title: "Dubai South Apartment Interior Image 5",
     description: "Sleek kitchen design with marble countertops and smart storage solutions"
   },
   {
-    src: "/images/ATRD (16).webp",
+    src: "/images/FB_IMG_1683667217002.jpg",
     alt: "Luxury corridor Dubai South apartment design",
     title: "Dubai South Apartment Interior Image 6",
     description: "Minimalist corridor with warm lighting and elegant architectural flow"
-  },
-  {
-    src: "/images/ATRD (17).webp",
-    alt: "Dubai South apartment living room decor",
-    title: "Dubai South Apartment Interior Image 7",
-    description: "Stylish seating area with neutral tones and luxury detailing"
-  },
-  {
-    src: "/images/ATRD (18).webp",
-    alt: "Luxury bathroom Dubai South apartment interior",
-    title: "Dubai South Apartment Interior Image 8",
-    description: "Spa-inspired bathroom with marble finishes and premium fittings"
-  },
-  {
-    src: "/images/ATRD (22).webp",
-    alt: "Open-plan Dubai South apartment interior design",
-    title: "Dubai South Apartment Interior Image 9",
-    description: "Open layout connecting living, dining, and kitchen seamlessly"
-  },
-  {
-    src: "/images/ATRD (23).webp",
-    alt: "Modern apartment interior Dubai South",
-    title: "Dubai South Apartment Interior Image 10",
-    description: "Bright and airy space with modern minimalist design approach"
-  },
-  {
-    src: "/images/ATRD (25).webp",
-    alt: "Luxury apartment fit-out Dubai South interior",
-    title: "Dubai South Apartment Interior Image 11",
-    description: "Premium finishes with bespoke interior craftsmanship"
-  },
-  {
-    src: "/images/ATRD (26).webp",
-    alt: "Elegant bedroom Dubai South apartment design",
-    title: "Dubai South Apartment Interior Image 12",
-    description: "Soft luxury bedroom design with warm lighting and textures"
-  },
-  {
-    src: "/images/ATRD (27).webp",
-    alt: "Dubai South luxury apartment lounge",
-    title: "Dubai South Apartment Interior Image 13",
-    description: "Modern lounge designed for comfort and elegance"
-  },
-  {
-    src: "/images/ATRD (28).webp",
-    alt: "High-end apartment interior Dubai South",
-    title: "Dubai South Apartment Interior Image 14",
-    description: "Spacious living area with marble flooring and refined aesthetics"
-  },
-  {
-    src: "/images/ATRD (29).webp",
-    alt: "Signature Dubai South apartment interior design",
-    title: "Dubai South Apartment Interior Image 15",
-    description: "Signature luxury apartment design blending comfort and sophistication"
-  },
+  }
+  
 ];
 
 const VPBody = () => {
@@ -186,7 +133,7 @@ const VPBody = () => {
           {/* Hero Image */}
           <figure className="w-full lg:w-1/2">
             <Image
-              src="/images/ATRD (28).webp"
+              src="/images/FB_IMG_1683667201112.jpg"
               alt="Luxury Dubai South apartment interior design"
               title="Dubai South Apartment Interior Fit-out"
               width={800}
@@ -197,17 +144,7 @@ const VPBody = () => {
 
         </div>
       </div>
-
-      {/* Scroll Icon */}
-      <div className="mt-10 flex justify-center">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Scroll indicator"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
-      </div>
+      
 
       {/* Gallery Title */}
       <h2 className="text-white mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">

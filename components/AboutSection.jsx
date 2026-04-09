@@ -8,7 +8,7 @@ const cards = [
     title: "OUR SERVICES",
     description:
       "Rady Interior delivers a complete suite of luxury interior design and fit out services in Dubai, offering bespoke solutions for residential, commercial, hospitality and office spaces. With expert space planning, precise execution, and turnkey project delivery, we transform vision into timeless environments defined by craftsmanship, elegance, and technical excellence.",
-    image: "/images/1.webp",
+    image: "/images/Manooi Rose apartment Vienna resized.jpg",
     imageAlt: "Luxury interior living room",
     buttons: [
       { label: "OUR PROJECTS", href: "/gallery", filled: true },
@@ -20,7 +20,7 @@ const cards = [
     title: "RESIDENTIAL PROJECTS",
     description:
       "As Dubai's leading interior fit out specialist, we provide bespoke turnkey solutions for luxury homes and high end commercial spaces. We blend expert craftsmanship with precise project execution to transform design concepts into refined, functional interiors across the UAE.",
-    image: "/images/3.webp",
+    image: "/images/khalifa al ali- master bedroom-right side view 1-25.01.jpg",
     imageAlt: "Luxury residential dining interior",
     buttons: [],
     reverse: true,

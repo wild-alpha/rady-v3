@@ -5,66 +5,46 @@ import Image from "next/image";
 import Link from "next/link";
 
 const designProjects = [
-  {
-    title: "Mansion Interior Design",
-    image: "/images/10.webp",
-    href: "/services/mansion-interior-design",
+{
+    title: "Palace Interior Design",
+    image: "/images/palace-furniture-dubai.jpg",
+    href: "/palace-interior-design",
   },
   {
-    title: "Palace Interior design",
-    image: "/images/11.webp",
-    href: "/services/palace-interior-design",
+    title: "Villa Interior Design",
+    image: "/images/modern-villa-interios-in-dubai.png",
+    href: "/villa-interior-design",
   },
   {
-    title: "Villa Interior Design Dubai",
-    image: "/images/12.webp",
-    href: "/services/villa-interior-design-dubai",
+    title: "Apartment Interior Design",
+    image: "/images/apartment-living-room-interior-design.jpg",
+    href: "/apartment-interior-design",
   },
   {
-    title: "Townhouse Design Dubai",
-    image: "/images/13.webp",
-    href: "/services/townhouse-design-dubai",
+    title: "Penthouse Interior Design",
+    image: "/images/penthouse-interior-design-service.jpg",
+    href: "/penthouse-interior-design",
   },
   {
-    title: "Penthouse Interior Design Dubai",
-    image: "/images/14.webp",
-    href: "/services/penthouse-interior-design-dubai",
+    title: "Restaurant Design",
+    image: "/images/restaurant-renovation.jpg",
+    href: "/restaurant-design",
   },
   {
-    title: "Apartment Interior Design Dubai",
-    image: "/images/15.webp",
-    href: "/services/apartment-interior-design-dubai",
+    title: "Exterior Design",
+    image: "/images/exterior-design-dubai.png", // was landscape
+    href: "/exterior-design",
   },
   {
-    title: "Restaurant Design Dubai",
-    image: "/images/16.webp",
-    href: "/services/restaurant-design-dubai",
+    title: "Office Interior Design",
+    image: "/images/executive-office-interior.tif",
+    href: "/office-interior-design",
   },
   {
-    title: "Landscape Design Dubai",
-    image: "/images/17.webp",
-    href: "/services/landscape-design-dubai",
-  },
-  {
-    title: "Office Fit Out Dubai",
-    image: "/images/18.webp",
-    href: "/services/office-fit-out-dubai",
-  },
-  {
-    title: "Villa Renovation Dubai",
-    image: "/images/19.webp",
-    href: "/services/villa-renovation-dubai",
-  },
-  {
-    title: "Apartment Renovation Dubai",
-    image: "/images/20.webp",
-    href: "/services/apartment-renovation-dubai",
-  },
-  {
-    title: "Kitchen Renovation Dubai, UAE",
-    image: "/images/21.webp",
-    href: "/services/kitchen-renovation-dubai-uae",
-  },
+    title: "Kitchen Interior Design",
+    image: "/images/kitchen-design.jpg",
+    href: "/kitchen-interior-design",
+  }
 ];
 
 const INITIAL_VISIBLE_COUNT = 8;

@@ -116,11 +116,31 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: FaFacebookF, href: "#", label: "Facebook" },
-  { icon: FaInstagram, href: "#", label: "Instagram" },
-  { icon: FaYoutube, href: "#", label: "YouTube" },
-  { icon: FaLinkedinIn, href: "#", label: "LinkedIn" },
-  { icon: FaPinterestP, href: "#", label: "Pinterest" },
+    {
+    icon: FaFacebookF,
+    href: "https://www.facebook.com/rady.interior/",
+    label: "Facebook",
+  },
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/rady.interior/",
+    label: "Instagram",
+  },
+  {
+    icon: FaYoutube,
+    href: "https://www.youtube.com/@RadyInterior",
+    label: "YouTube",
+  },
+  {
+    icon: FaLinkedinIn,
+    href: "https://www.linkedin.com/company/rady-interior/?originalSubdomain=ae",
+    label: "LinkedIn",
+  },
+  {
+    icon: FaPinterestP,
+    href: "https://www.pinterest.com/radyinterior/",
+    label: "Pinterest",
+  },
 ];
 
 export default function Navbar() {
@@ -250,7 +270,7 @@ export default function Navbar() {
                 <div className="ml-2 flex items-center gap-2">
                   <button className="overflow-hidden rounded-sm">
                     <Image
-                      src="/images/flags/arabic.png"
+                      src="/images/ar.svg"
                       alt="Arabic"
                       width={24}
                       height={16}
@@ -260,7 +280,7 @@ export default function Navbar() {
 
                   <button className="overflow-hidden rounded-sm">
                     <Image
-                      src="/images/flags/english.png"
+                      src="/images/en.svg"
                       alt="English"
                       width={24}
                       height={16}
@@ -344,7 +364,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <button className="overflow-hidden rounded-sm">
             <Image
-              src="/images/flags/arabic.png"
+              src="/images/ar.svg"
               alt="Arabic"
               width={22}
               height={14}
@@ -354,7 +374,7 @@ export default function Navbar() {
 
           <button className="overflow-hidden rounded-sm">
             <Image
-              src="/images/flags/english.png"
+              src="/images/en.svg"
               alt="English"
               width={22}
               height={14}

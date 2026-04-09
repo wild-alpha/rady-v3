@@ -5,25 +5,35 @@ import Link from "next/link";
 
 const featuresCards = [
   {
-    title: "Residential Interior Fit Out",
-    image: "/images/22.webp",
-    href: "/fit-out-works/residential-interior-fit-out",
+    title: "Villa Renovation",
+    image: "/images/villa-rennovation.jpg",
+    href: "/villa-renovation",
   },
   {
-    title: "Office Interior Fit Out Dubai",
-    image: "/images/23.webp",
-    href: "/fit-out-works/office-interior-fit-out-dubai",
+    title: "Apartment Renovation",
+    image: "/images/apartment.jpg",
+    href: "/apartment-renovation",
   },
   {
-    title: "Retail Interior Fit Out Dubai",
-    image: "/images/24.webp",
-    href: "/fit-out-works/retail-interior-fit-out-dubai",
+    title: "Office Renovation",
+    image: "/images/office-interior.webp",
+    href: "/office-renovation",
   },
   {
-    title: "Restaurant Fit Out Dubai",
-    image: "/images/25.webp",
-    href: "/fit-out-works/restaurant-fit-out-dubai",
+    title: "Kitchen Renovation",
+    image: "/images/kitchen-renovation.jpg",
+    href: "/kitchen-renovation",
   },
+  {
+    title: "Bathroom Renovation",
+    image: "/images/bathroom-renovation.jpg",
+    href: "/bathroom-renovation",
+  },
+  {
+    title: "Villa Contracting",
+    image: "/images/arabian-ranches-villa-interior-fit-out.webp",
+    href: "/villa-contracting",
+  }
 ];
 
 export default function Features() {
@@ -51,7 +61,7 @@ export default function Features() {
         </div>
 
         {/* Cards */}
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {featuresCards.map((card) => (
             <Link
               key={card.title}

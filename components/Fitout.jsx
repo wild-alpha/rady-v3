@@ -6,33 +6,33 @@ import Link from "next/link";
 const fitoutCards = [
   {
     title: "Office Fit Out",
-    image: "/images/4.webp",
-    href: "/fit-out-works/office-fit-out",
+    image: "/images/office-renovation.jpg",
+    href: "/office-fit-out",
   },
   {
-    title: "Villa Interior",
-    image: "/images/5.webp",
-    href: "/fit-out-works/villa-fit-out",
+    title: "Commercial Fit Out",
+    image: "/images/commercial-fitout.jpg",
+    href: "/commercial-fit-out",
   },
   {
-    title: "Apartment Design",
-    image: "/images/6.webp",
-    href: "/fit-out-works/apartment-fit-out",
+    title: "Restaurant Fit Out Works",
+    image: "/images/restaurant-design.jpg",
+    href: "/restaurant-fit-out",
   },
   {
-    title: "Dining Interior",
-    image: "/images/7.webp",
-    href: "/fit-out-works/dining-interior",
+    title: "Retail Fit Out",
+    image: "/images/retail-design.jpg",
+    href: "/retail-fit-out",
   },
   {
-    title: "Luxury Staircase",
-    image: "/images/8.webp",
-    href: "/fit-out-works/staircase-design",
+    title: "Customized Joinery",
+    image: "/images/jumeirah-bay-island-mansion.webp",
+    href: "/customized-joinery",
   },
   {
-    title: "Cafe Interior",
+    title: "Bespoke Furniture",
     image: "/images/9.webp",
-    href: "/fit-out-works/cafe-fit-out",
+    href: "/bespoke-furniture",
   },
 ];
 

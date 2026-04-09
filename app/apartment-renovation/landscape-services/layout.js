@@ -1,0 +1,13 @@
+export const metadata = {
+  title: "Villa Interior Design Dubai - Modern Interior Design",
+  description:
+    "Luxury villa interior design in Dubai by WE DO. Modern, classic, or creative styles, beautiful spaces made for you. Call now to start your project!",
+  metadataBase: new URL("https://www.casakraftinteriors.ae/"),
+  alternates: {
+    canonical: "/villa-interior-design-dubai",
+  },
+};
+
+export default function Layout({ children }) {
+  return <>{children}</>;
+}

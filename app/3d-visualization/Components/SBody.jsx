@@ -174,7 +174,7 @@ const SBody = () => {
             Transform your vision into a precise, realistic virtual experience with RadyInterior.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
-            <a href="https://wa.me/971588075603" className="px-6 py-3 bg-[#d4af37] text-black font-play text-sm rounded hover:bg-[#f0c95a] transition">
+            <a href="https://wa.me/971508181824" className="px-6 py-3 bg-[#d4af37] text-black font-play text-sm rounded hover:bg-[#f0c95a] transition">
               Request via WhatsApp
             </a>
             <a href="mailto:info@radyinterior.ae" className="px-6 py-3 bg-[#8c6b1f] text-white font-play text-sm rounded hover:bg-[#d4af37] hover:text-black transition">

@@ -145,7 +145,7 @@ const SBody = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 px-4">
             <a
-              href="https://wa.me/971588075603"
+              href="https://wa.me/971508181824"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-[#d4af37] text-black font-play text-sm rounded w-full sm:w-auto text-center hover:bg-[#f0c95a] transition"

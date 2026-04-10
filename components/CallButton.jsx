@@ -2,7 +2,7 @@
 import { FaPhoneAlt } from 'react-icons/fa';
 
 const CallButton = () => {
-  const phoneNumber = '+971588075603';
+  const phoneNumber = '+971508181824';
 
   const handleClick = () => {
     // Fire Google Ads conversion for Call Button click

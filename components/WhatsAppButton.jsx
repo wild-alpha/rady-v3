@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
-  const [whatsappNumber] = useState('+971588075603');
+  const [whatsappNumber] = useState('+971508181824');
 
   const handleClick = () => {
     // Fire Google Ads conversion for WhatsApp click

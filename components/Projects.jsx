@@ -126,7 +126,7 @@ const Projects = () => {
         {/* CTA Button */}
         <div className="mt-12 flex justify-center">
           <a
-            href="mailto:info@wedointerior.ae"
+            href="mailto:info@radyinterior.ae"
             className="block font-conthrax tracking-wide px-4 py-1 text-[10px] md:px-16 md:py-3.5 md:text-sm text-[#a0624d] bg-transparent transition duration-300 hover:bg-[#caa193]/10 border border-transparent"
             style={{
               borderImage: "linear-gradient(to right, #caa193, #a0624d)",
